@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <category label="32101">
+    <setting label="32110" type="text"   id="xml_update_url" default="http://dl.gmlblog.de/deutschesender.xml"/>
+    <setting label="32111" type="text"   id="xml_filename" default="deutschesender.xml"/>
+    <setting label="32112" type="action" action="RunScript(plugin.video.deutsche_sender, update_xml_file)"/>
+  </category>
+</settings>
+
+

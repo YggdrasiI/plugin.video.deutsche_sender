@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.deutsche_sender" name="Deutsche Sender" version="0.1.0" provider-name="YggdrasiI">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.3.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Load channel list from XML file.</summary>
+    <description lang="en_GB">Load channel list from local XML file.</description>
+    <disclaimer lang="en_GB">Simple plugin to parse channel list of XML file. As default the list for German channels from gmlblog.de is provided.</disclaimer>
+    <summary lang="de_DE">Läd Senderliste aus lokaler XML-Datei.</summary>
+    <description lang="de_DE">Einfaches Plugin mit Zugriff auf Sender einer XML-Datei. Mitgeliefert wird die Liste für deutsche Sender vom gmlblog.de.</description>
+    <disclaimer lang="de_DE"></disclaimer>
+    <language>de</language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source>https://github.com/YggdrasiI/plugin.video.deutsche_sender</source>
+  </extension>
+</addon>

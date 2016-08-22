@@ -1,0 +1,6 @@
+v0.2.0 (2016-08-22)
+- Add update functionality
+- Add base translation
+
+v0.1.0 (2016-02-10)
+- Initial version
