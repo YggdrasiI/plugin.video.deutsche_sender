@@ -5,7 +5,7 @@
   <description>Livestreams</description>
   <thumbnail>http://community-links.googlecode.com/svn/icons/news-icon.png</thumbnail>
   <fanart>http://community-links.googlecode.com/svn/icons/news-fanart.jpg</fanart>
-  <date>31.12.2015</date>
+  <date>21.08.2016</date>
   <credits>Gammel</credits>
  </channels_info>
 <channel>
@@ -185,13 +185,33 @@
 	</item>
 	<item>
 		<title>Phoenix</title>
-		<link>http://zdf_hds_de-f.akamaihd.net/i/de09_v1@87012/master.m3u8</link>
+		<link>http://zdf0910-lh.akamaihd.net/i/de09_v1@392871/master.m3u8</link>
 		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Phoenix_Logo_2012.svg/320px-Phoenix_Logo_2012.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>phoenix</info>
 		<date>31.12.2015</date>
 		<epg></epg>
 		<fanart>https://upload.wikimedia.org/wikipedia/commons/3/3a/Phoenix.JPG</fanart>
+	</item>
+	<item>
+		<title>HR</title>
+		<link>http://live1_hr-lh.akamaihd.net/i/hr_fernsehen@75910/master.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/HR_Logo.svg/200px-HR_Logo.svg.png</thumbnail>
+		<genre>TV</genre>
+		<info>hr</info>
+		<date>10.03.2016</date>
+		<epg></epg>
+		<fanart>https://upload.wikimedia.org/wikipedia/commons/1/13/Hessischer-rundfunk-ffm001.jpg</fanart>
+	</item>
+	<item>
+		<title>ARD-Alpha</title>
+		<link>http://livestreams.br.de/i/bralpha_germany@119899/master.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/320px-ARD_alpha.svg.png</thumbnail>
+		<genre>TV</genre>
+		<info>ardalpha</info>
+		<date>10.03.2016</date>
+		<epg></epg>
+		<fanart></fanart>
 	</item>
 </items>
 </channel>
@@ -296,6 +316,36 @@
 		<genre>TV</genre>
 		<info>n24</info>
 		<date>13.03.2015</date>
+		<epg></epg>
+		<fanart></fanart>
+	</item>
+	<item>
+		<title>eRtv</title>
+		<link>rtmp://stream2.telvi.de:80/ertvlive/live playpath=live swfurl=http://global.telvi.de/swf/SinglePlayer.swf pageUrl=http://www.ertv.de/Livestream.html live=true timeout=15</link>
+		<thumbnail></thumbnail>
+		<genre>TV</genre>
+		<info>ertv</info>
+		<date>22.03.2016</date>
+		<epg></epg>
+		<fanart></fanart>
+	</item>
+	<item>
+		<title>ServusTV</title>
+		<link>http://hdiosstv-f.akamaihd.net/i/servustvhdde_1@75540/master.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/de/thumb/b/be/ServusTV.svg/500px-ServusTV.svg.png</thumbnail>
+		<genre>TV</genre>
+		<info>servustv</info>
+		<date>27.03.2016</date>
+		<epg></epg>
+		<fanart></fanart>
+	</item>
+	<item>
+		<title>DW-TV</title>
+		<link>http://dwstream72-lh.akamaihd.net/i/dwstream72_live@123556/master.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/200px-Deutsche_Welle_symbol_2012.svg.png</thumbnail>
+		<genre>TV</genre>
+		<info>dwtv</info>
+		<date>21.08.2016</date>
 		<epg></epg>
 		<fanart></fanart>
 	</item>
