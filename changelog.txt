@@ -1,3 +1,6 @@
+v1.0.0 (2017-08-09)
+- Bugfix: Create folder for xml file at first statup.
+
 v0.2.0 (2016-08-22)
 - Add update functionality
 - Add base translation

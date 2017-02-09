@@ -31,11 +31,23 @@ def copy_default_xml_file(target_file_name):
         raise e
 
 
+def make_addon_data_dir():
+    import os
+    (xml_path, xml_name) = get_xml_file_path()
+    try:
+        if not os.path.isdir(xml_path):
+            os.mkdir(xml_path)
+    except OSError:
+        addon_name = addon.getAddonInfo("name")
+        err = 'Can\'t create folder for addon data.'
+        xbmcgui.Dialog().notification(addon_name, err,
+                                      xbmcgui.NOTIFICATION_ERROR, 5000)
+
+
 # For xml update over gui
 def update_xml_file():
 
     import requests
-    import os
 
     class FetchError(Exception):
         pass
@@ -45,13 +57,7 @@ def update_xml_file():
     source_url = addon.getSetting('xml_update_url')
     (xml_path, xml_name) = get_xml_file_path()
 
-    try:
-        if not os.path.isdir(xml_path):
-            os.mkdir(xml_path)
-    except OSError as e:
-        err = 'Can\'t create folder for addon data.'
-        xbmcgui.Dialog().notification(addon_name, err,
-                                      xbmcgui.NOTIFICATION_ERROR, 5000)
+    make_addon_data_dir()
 
     try:
         r = requests.get(source_url)
@@ -83,6 +89,9 @@ def fetch_channels_from_xml(xml_file, channel_name=None):
     # addon = xbmcaddon.Addon()
     xml_file = "".join(get_xml_file_path())
     if not os.path.isfile(xml_file):
+        # 0. Create dir, if ness.
+        make_addon_data_dir()
+
         # 1. Use default file
         copy_default_xml_file(xml_file)
 
