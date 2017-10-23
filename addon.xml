@@ -13,7 +13,10 @@
     <disclaimer lang="en_GB">Simple plugin to parse channel list of XML file. As default the list for German channels from gmlblog.de is provided.</disclaimer>
     <summary lang="de_DE">Läd Senderliste aus lokaler XML-Datei.</summary>
     <description lang="de_DE">Einfaches Plugin mit Zugriff auf Sender einer XML-Datei. Mitgeliefert wird die Liste für deutsche Sender vom gmlblog.de.</description>
-    <disclaimer lang="de_DE"></disclaimer>
+    <disclaimer lang="de_DE"></disclaimer> 
+    <summary lang="he_il">טען רשימת ערוצים מקובץ XML.</summary>
+    <description lang="he_il">טען רשימת ערוצים מקובץ XML מקומי.</description>
+    <disclaimer lang="he_il">תוסף פשוט שמנתח את רשימת הערוצים בקובץ XML. כברירת מחדל, רשימה של ערוצים גרמניים מסופקת מ-gmlblog.de.</disclaimer>
     <language>de</language>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
