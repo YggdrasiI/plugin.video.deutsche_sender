@@ -5,7 +5,7 @@
   <description>Livestreams</description>
   <thumbnail>http://community-links.googlecode.com/svn/icons/news-icon.png</thumbnail>
   <fanart>http://community-links.googlecode.com/svn/icons/news-fanart.jpg</fanart>
-  <date>21.08.2016</date>
+  <date>22.10.2017</date>
   <credits>Gammel</credits>
  </channels_info>
 <channel>
@@ -35,7 +35,7 @@
 	</item>
 	<item>
 		<title>WDR</title>
-		<link>http://www.metafilegenerator.de/WDR/WDR_FS/m3u8/wdrfernsehen.m3u8</link>
+		<link>http://wdrfsgeo-lh.akamaihd.net/i/wdrfs_geogeblockt@530016/master.m3u8</link>
 		<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/WDR_Re-Branding_2012_Logo.svg/200px-WDR_Re-Branding_2012_Logo.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>WDR</info>
@@ -45,7 +45,7 @@
 	</item>
 	<item>
 		<title>NDR Fernsehen Hamburg</title>
-		<link>http://ndr_fs-lh.akamaihd.net/i/ndrfs_hh@119223/master.m3u8</link>
+		<link>https://ndrfs-lh.akamaihd.net/i/ndrfs_hh@430231/master.m3u8</link>
 		<thumbnail>https://upload.wikimedia.org/wikipedia/de/thumb/4/46/NDR_fernsehen_Logo_2008.svg/200px-NDR_fernsehen_Logo_2008.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>ndr_hh</info>
@@ -55,7 +55,7 @@
 	</item>
 	<item>
 		<title>NDR Fernsehen Mecklenburg-Vorpommern</title>
-		<link>http://ndr_fs-lh.akamaihd.net/i/ndrfs_mv@119226/master.m3u8</link>
+		<link>https://ndrfs-lh.akamaihd.net/i/ndrfs_mv@430232/master.m3u8</link>
 		<thumbnail>https://upload.wikimedia.org/wikipedia/de/thumb/4/46/NDR_fernsehen_Logo_2008.svg/200px-NDR_fernsehen_Logo_2008.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>ndr_mv</info>
@@ -65,7 +65,7 @@
 	</item>
 	<item>
 		<title>NDR Fernsehen Niedersachsen</title>
-		<link>http://ndr_fs-lh.akamaihd.net/i/ndrfs_nds@119224/master.m3u8</link>
+		<link>https://ndrfs-lh.akamaihd.net/i/ndrfs_nds@430233/master.m3u8</link>
 		<thumbnail>https://upload.wikimedia.org/wikipedia/de/thumb/4/46/NDR_fernsehen_Logo_2008.svg/200px-NDR_fernsehen_Logo_2008.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>ndr_ns</info>
@@ -75,7 +75,7 @@
 	</item>
 	<item>
 		<title>NDR Fernsehen Schleswig-Holstein</title>
-		<link>http://ndr_fs-lh.akamaihd.net/i/ndrfs_sh@119225/master.m3u8</link>
+		<link>https://ndrfs-lh.akamaihd.net/i/ndrfs_sh@430234/master.m3u8</link>
 		<thumbnail>https://upload.wikimedia.org/wikipedia/de/thumb/4/46/NDR_fernsehen_Logo_2008.svg/200px-NDR_fernsehen_Logo_2008.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>ndr_sh</info>
@@ -85,7 +85,7 @@
 	</item>
 	<item>
 		<title>rbb Berlin</title>
-		<link>http://rbb_live-lh.akamaihd.net/i/rbb_berlin@108248/master.m3u8</link>
+		<link>https://rbblive-lh.akamaihd.net/i/rbb_berlin@144674/master.m3u8</link>
 		<thumbnail>https://upload.wikimedia.org/wikipedia/de/thumb/e/ee/RBB_Dachmarke.svg/200px-RBB_Dachmarke.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>rbb_ber</info>
@@ -95,7 +95,7 @@
 	</item>
 	<item>
 		<title>rbb Brandenburg</title>
-		<link>http://rbb_live-lh.akamaihd.net/i/rbb_brandenburg@107638/master.m3u8</link>
+		<link>https://rbblive-lh.akamaihd.net/i/rbb_brandenburg@349369/master.m3u8</link>
 		<thumbnail>https://upload.wikimedia.org/wikipedia/de/thumb/e/ee/RBB_Dachmarke.svg/200px-RBB_Dachmarke.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>rbb_br</info>
@@ -105,7 +105,7 @@
 	</item>
 	<item>
 		<title>MDR Sachsen-Anhalt</title>
-		<link>http://mdr_sa_hls-lh.akamaihd.net/i/livetvmdrsachsenanhalt_de@106901/master.m3u8</link>
+		<link>http://mdrsahls-lh.akamaihd.net/i/livetvmdrsachsenanhalt_de@513999/master.m3u8</link>
 		<thumbnail>https://upload.wikimedia.org/wikipedia/de/thumb/2/27/Mdr-fernsehen-logo.svg/200px-Mdr-fernsehen-logo.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>mdr_sa</info>
@@ -115,7 +115,7 @@
 	</item>
 	<item>
 		<title>MDR Sachsen</title>
-		<link>http://mdr_sachsen_hls-lh.akamaihd.net/i/livetvmdrsachsen_de@106902/master.m3u8</link>
+		<link>http://mdrsnhls-lh.akamaihd.net/i/livetvmdrsachsen_de@513998/master.m3u8</link>
 		<thumbnail>https://upload.wikimedia.org/wikipedia/de/thumb/2/27/Mdr-fernsehen-logo.svg/200px-Mdr-fernsehen-logo.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>mdr_s</info>
@@ -125,7 +125,7 @@
 	</item>
 	<item>
 		<title>MDR Thüringen</title>
-		<link>http://mdr_th_hls-lh.akamaihd.net/i/livetvmdrthueringen_de@106903/master.m3u8</link>
+		<link>http://mdrthuhls-lh.akamaihd.net/i/livetvmdrthueringen_de@514027/master.m3u8</link>
 		<thumbnail>https://upload.wikimedia.org/wikipedia/de/thumb/2/27/Mdr-fernsehen-logo.svg/200px-Mdr-fernsehen-logo.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>mdr_th</info>
@@ -165,7 +165,7 @@
 	</item>
 	<item>
 		<title>Arte</title>
-		<link>http://delive.artestras.cshls.lldns.net/artestras/contrib/delive.m3u8</link>
+		<link>http://artelive-lh.akamaihd.net/i/artelive_de@393591/master.m3u8</link>
 		<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Arte_Logo_2011.svg/200px-Arte_Logo_2011.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>arte</info>
@@ -175,7 +175,7 @@
 	</item>
 	<item>
 		<title>KiKA</title>
-		<link>http://kika_geo-lh.akamaihd.net/i/livetvkika_de@75114/master.m3u8</link>
+		<link>https://kikade-lh.akamaihd.net/i/livetvkika_de@450035/master.m3u8</link>
 		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Kika_2012.svg/320px-Kika_2012.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>kinderkanal</info>
@@ -242,16 +242,6 @@
 		<fanart></fanart>
 	</item>
 	<item>
-		<title>ZDFkultur</title>
-		<link>http://zdf1112-lh.akamaihd.net/i/de11_v1@392881/master.m3u8</link>
-		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Zdf.kultur_logo.svg/200px-Zdf.kultur_logo.svg.png</thumbnail>
-		<genre>TV</genre>
-		<info>zdf_kultur</info>
-		<date>10.05.2014</date>
-		<epg></epg>
-		<fanart></fanart>
-	</item>
-	<item>
 		<title>ZDFinfo</title>
 		<link>http://zdf1112-lh.akamaihd.net/i/de12_v1@392882/master.m3u8</link>
 		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ZDFinfo_2011.svg/200px-ZDFinfo_2011.svg.png</thumbnail>
@@ -279,16 +269,6 @@
 <thumbnail>http://upload.wikimedia.org/wikipedia/commons/0/05/Effelsberg_total2.jpg</thumbnail>
 <fanart>http://upload.wikimedia.org/wikipedia/commons/c/cd/Arecibo_Observatory_Aerial_View.jpg</fanart>
 <items>
-	<item>
-		<title>NRW.TV</title>
-		<link>rtmp://streaming001.broadcast.tneg.de/nrwtv/nrwtv.stream</link>
-		<thumbnail>http://upload.wikimedia.org/wikipedia/de/thumb/8/82/NRW.TV_Logo.svg/200px-NRW.TV_Logo.svg.png</thumbnail>
-		<genre>TV</genre>
-		<info>nrw_tv</info>
-		<date>01.10.2014</date>
-		<epg></epg>
-		<fanart></fanart>
-	</item>
 	<item>
 		<title>Joiz</title>
 		<link>http://ooyalahd2-f.akamaihd.net/i/joizgerm01_delivery@324125/index_2528_av-p.m3u8</link>

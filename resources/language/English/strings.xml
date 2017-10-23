@@ -8,4 +8,9 @@
   <string id="32110">Source url for updates</string>
   <string id="32111">Target file</string>
   <string id="32112">Fetch new file</string>
+
+  <string id="32215">Force view</string>
+  <string id="32216">None</string>
+  <string id="32217">List</string>
+  <string id="32218">Big List</string>
 </strings>

@@ -145,6 +145,13 @@ else:
     xbmcplugin.setContent(addon_handle, 'movies')
     # addon = xbmcaddon.Addon()
 
+    # Set default view
+    force_view = int(addon.getSetting(u"force_view"))
+    if force_view:
+        # 50 (List) or 51 (Wide List)
+        xbmc.executebuiltin(u"Container.SetViewMode(%i)" %
+                            (force_view + 49))
+
     mode = args.get('mode', None)
     if mode is None:
         channels = fetch_channels_from_xml(addon.getSetting('xml_filename'))
