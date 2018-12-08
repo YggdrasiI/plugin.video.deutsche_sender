@@ -204,6 +204,16 @@
 		<fanart>https://upload.wikimedia.org/wikipedia/commons/1/13/Hessischer-rundfunk-ffm001.jpg</fanart>
 	</item>
 	<item>
+		<title>ARD One</title>
+		<link>http://onelivestream-lh.akamaihd.net/i/one_livestream@568814/master.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/One_TV_Logo.svg/320px-One_TV_Logo.svg.png</thumbnail>
+		<genre>TV</genre>
+		<info>ardone</info>
+		<date>08.12.2018</date>
+		<epg></epg>
+		<fanart></fanart>
+	</item>
+	<item>
 		<title>ARD-Alpha</title>
 		<link>http://livestreams.br.de/i/bralpha_germany@119899/master.m3u8</link>
 		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/320px-ARD_alpha.svg.png</thumbnail>
