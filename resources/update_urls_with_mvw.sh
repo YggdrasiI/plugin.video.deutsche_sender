@@ -58,14 +58,19 @@ for GUID in $GUIDS ; do
       sed -n "s/.*link>\(.*\)<\/link.*/\1/p")
 
     if [ "$CUR_LINK" != "$NEW_LINK" ] ; then
-      # echo "New Link found for '$CHANNEL'!"
-      echo "Old link: $CUR_LINK"
-      echo "New link: $NEW_LINK"
+			if [ -n "$NEW_LINK" ] ; then
+				echo -e "\tOld link: $CUR_LINK"
+				echo -e "\tNew link: $NEW_LINK"
 
-      CUR_LINK_MOD=$(echo "$CUR_LINK" | sed 's#/#\\/#g')
-      NEW_LINK_MOD=$(echo "$NEW_LINK" | sed 's#/#\\/#g')
+				CUR_LINK_MOD=$(echo "$CUR_LINK" | sed 's#/#\\/#g')
+				NEW_LINK_MOD=$(echo "$NEW_LINK" | sed 's#/#\\/#g')
 
-      sed -i "s/<link>$CUR_LINK_MOD<\/link>/<link>$NEW_LINK_MOD<\/link>/" "$SENDER_NEXT_FILE"
+				sed -i "s/<link>$CUR_LINK_MOD<\/link>/<link>$NEW_LINK_MOD<\/link>/" \
+					"$SENDER_NEXT_FILE"
+			else
+				echo -e "\tKein neuer Link enthalten."
+			fi
+
     # else
     #   echo "Ok"
     fi
