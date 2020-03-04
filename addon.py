@@ -130,22 +130,10 @@ def fetch_channels_from_xml(xml_file, channel_name=None):
 def build_url(query):
     return base_url + '?' + urllib.urlencode(query)
 
-def resolve_local_paths(path):
-    # Translate local paths
-    if path and path.startswith("/"):
-        path = os.path.join(artfolder, path)
-
-    return path
-
 # Main code
 
 base_url = sys.argv[0]
 addon = xbmcaddon.Addon()
-
-# For local images
-addonfolder = addon.getAddonInfo('path').decode('utf-8')
-artfolder = os.path.join(addonfolder, "resources", "media")
-
 
 # RunScript handling
 if sys.argv[1] == 'update_xml_file':
@@ -174,9 +162,6 @@ else:
 
             fanartImage = channel.get("fanart", "DefaultFolder.png")
             thumbnailImage = channel.get("thumbnail", "DefaultFolder.png")
-
-            fanartImage = resolve_local_paths(fanartImage)
-            thumbnailImage = resolve_local_paths(thumbnailImage)
 
             li = xbmcgui.ListItem(
                 channel_name,
@@ -212,9 +197,6 @@ else:
             #    url = urllib.quote(url)
             fanartImage = item.get("fanart", "DefaultFolder.png")
             thumbnailImage = item.get("thumbnail", "DefaultFolder.png")
-
-            fanartImage = resolve_local_paths(fanartImage)
-            thumbnailImage = resolve_local_paths(thumbnailImage)
 
             li = xbmcgui.ListItem(
                 title,
