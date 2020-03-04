@@ -1,3 +1,8 @@
+v1.2.0 (2020-03-04)
+- Update stream urls
+- Remove unavailable sources
+- Add helper scripts to check & update urls.
+
 v1.0.0 (2017-08-09)
 - Bugfix: Create folder for xml file at first statup.
 
