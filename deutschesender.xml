@@ -3,8 +3,8 @@
   <title>Deutsche Sender</title>
   <genre>TV</genre>
   <description>Livestreams</description>
-	<thumbnail>https://raw.githubusercontent.com/YggdrasiI/plugin.video.deutsche_sender/master/resources/media/news-icon.png</thumbnail>
-  <fanart>https://raw.githubusercontent.com/YggdrasiI/plugin.video.deutsche_sender/master/resources/media/fanart_b.jpg</fanart>
+	<thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/media/news-icon.png</thumbnail>
+  <fanart>special://home/addons/plugin.video.deutsche_sender/resources/media/fanart_b.jpg</fanart>
   <date>22.10.2017</date>
   <credits>Gammel</credits>
  </channels_info>
@@ -27,7 +27,7 @@
 	<item>
 		<title>Tagesschau (Live)</title>
 		<link>http://tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/master.m3u8</link>
-		<thumbnail>https://upload.wikimedia.org/wikipedia/de/3/36/Tagesschau_logo.png</thumbnail>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tagesschau_Logo_2015.svg/462px-Tagesschau_Logo_2015.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>tagesschau</info>
 		<date>08.05.2014</date>
@@ -38,18 +38,18 @@
 	<item>
 		<title>WDR</title>
 		<link>http://wdrfsgeo-lh.akamaihd.net/i/wdrfs_geogeblockt@530016/master.m3u8</link>
-		<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/WDR_Re-Branding_2012_Logo.svg/200px-WDR_Re-Branding_2012_Logo.svg.png</thumbnail>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/WDR_Dachmarke.svg/800px-WDR_Dachmarke.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>WDR</info>
 		<date>11.08.2013</date>
 		<epg></epg>
-		<fanart></fanart>
+		<fanart>https://upload.wikimedia.org/wikipedia/commons/0/01/WDR_Archivhaus_K%C3%B6ln.jpg</fanart>
 		<mvw_guid>IPnZnvJwLQkdg/ekw380xgUVmyVFXJ4gw0dqv1GHBwE=</mvw_guid>
 	</item>
 	<item>
 		<title>NDR Fernsehen Hamburg</title>
 		<link>http://ndrfs-lh.akamaihd.net/i/ndrfs_hh@430231/master.m3u8</link>
-		<thumbnail>https://upload.wikimedia.org/wikipedia/de/thumb/4/46/NDR_fernsehen_Logo_2008.svg/200px-NDR_fernsehen_Logo_2008.svg.png</thumbnail>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/400px-Logo_NDR_Fernsehen_2017.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>ndr_hh</info>
 		<date>08.05.2014</date>
@@ -60,7 +60,7 @@
 	<item>
 		<title>NDR Fernsehen Mecklenburg-Vorpommern</title>
 		<link>http://ndrfs-lh.akamaihd.net/i/ndrfs_mv@430232/master.m3u8</link>
-		<thumbnail>https://upload.wikimedia.org/wikipedia/de/thumb/4/46/NDR_fernsehen_Logo_2008.svg/200px-NDR_fernsehen_Logo_2008.svg.png</thumbnail>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/400px-Logo_NDR_Fernsehen_2017.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>ndr_mv</info>
 		<date>08.05.2014</date>
@@ -71,7 +71,7 @@
 	<item>
 		<title>NDR Fernsehen Niedersachsen</title>
 		<link>http://ndrfs-lh.akamaihd.net/i/ndrfs_nds@430233/master.m3u8</link>
-		<thumbnail>https://upload.wikimedia.org/wikipedia/de/thumb/4/46/NDR_fernsehen_Logo_2008.svg/200px-NDR_fernsehen_Logo_2008.svg.png</thumbnail>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/400px-Logo_NDR_Fernsehen_2017.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>ndr_ns</info>
 		<date>08.05.2014</date>
@@ -82,7 +82,7 @@
 	<item>
 		<title>NDR Fernsehen Schleswig-Holstein</title>
 		<link>http://ndrfs-lh.akamaihd.net/i/ndrfs_sh@430234/master.m3u8</link>
-		<thumbnail>https://upload.wikimedia.org/wikipedia/de/thumb/4/46/NDR_fernsehen_Logo_2008.svg/200px-NDR_fernsehen_Logo_2008.svg.png</thumbnail>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/400px-Logo_NDR_Fernsehen_2017.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>ndr_sh</info>
 		<date>08.05.2014</date>
@@ -93,7 +93,7 @@
 	<item>
 		<title>rbb Berlin</title>
 		<link>http://rbblive-lh.akamaihd.net/i/rbb_berlin@144674/master.m3u8</link>
-		<thumbnail>https://upload.wikimedia.org/wikipedia/de/thumb/e/ee/RBB_Dachmarke.svg/200px-RBB_Dachmarke.svg.png</thumbnail>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Rbb_fernsehen_HD_Logo_2017.svg/800px-Rbb_fernsehen_HD_Logo_2017.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>rbb_ber</info>
 		<date>21.12.2013</date>
@@ -104,7 +104,7 @@
 	<item>
 		<title>rbb Brandenburg</title>
 		<link>http://rbblive-lh.akamaihd.net/i/rbb_brandenburg@349369/master.m3u8</link>
-		<thumbnail>https://upload.wikimedia.org/wikipedia/de/thumb/e/ee/RBB_Dachmarke.svg/200px-RBB_Dachmarke.svg.png</thumbnail>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Rbb_fernsehen_HD_Logo_2017.svg/800px-Rbb_fernsehen_HD_Logo_2017.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>rbb_br</info>
 		<date>21.12.2013</date>
@@ -115,7 +115,7 @@
 	<item>
 		<title>MDR Sachsen-Anhalt</title>
 		<link>http://mdrsahls-lh.akamaihd.net/i/livetvmdrsachsenanhalt_de@513999/master.m3u8</link>
-		<thumbnail>https://upload.wikimedia.org/wikipedia/de/thumb/2/27/Mdr-fernsehen-logo.svg/200px-Mdr-fernsehen-logo.svg.png</thumbnail>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Mdr_Fernsehen_HD_Logo_2017.png/800px-Mdr_Fernsehen_HD_Logo_2017.png</thumbnail>
 		<genre>TV</genre>
 		<info>mdr_sa</info>
 		<date>08.05.2014</date>
@@ -126,7 +126,7 @@
 	<item>
 		<title>MDR Sachsen</title>
 		<link>http://mdrsnhls-lh.akamaihd.net/i/livetvmdrsachsen_de@513998/master.m3u8</link>
-		<thumbnail>https://upload.wikimedia.org/wikipedia/de/thumb/2/27/Mdr-fernsehen-logo.svg/200px-Mdr-fernsehen-logo.svg.png</thumbnail>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Mdr_Fernsehen_HD_Logo_2017.png/800px-Mdr_Fernsehen_HD_Logo_2017.png</thumbnail>
 		<genre>TV</genre>
 		<info>mdr_s</info>
 		<date>08.05.2014</date>
@@ -137,7 +137,7 @@
 	<item>
 		<title>MDR Thüringen</title>
 		<link>http://mdrthuhls-lh.akamaihd.net/i/livetvmdrthueringen_de@514027/master.m3u8</link>
-		<thumbnail>https://upload.wikimedia.org/wikipedia/de/thumb/2/27/Mdr-fernsehen-logo.svg/200px-Mdr-fernsehen-logo.svg.png</thumbnail>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Mdr_Fernsehen_HD_Logo_2017.png/800px-Mdr_Fernsehen_HD_Logo_2017.png</thumbnail>
 		<genre>TV</genre>
 		<info>mdr_th</info>
 		<date>08.05.2014</date>
@@ -148,7 +148,7 @@
 	<item>
 		<title>Saarländischer Rundfunk</title>
 		<link>http://srlive24-lh.akamaihd.net/i/sr_universal02@107595/master.m3u8</link>
-		<thumbnail>http://upload.wikimedia.org/wikipedia/de/thumb/8/83/SR_Dachmarke.svg/200px-SR_Dachmarke.svg.png</thumbnail>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/SR_Dachmarke.svg/602px-SR_Dachmarke.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>sr</info>
 		<date>24.07.2014</date>
@@ -181,57 +181,13 @@
 	<item>
 		<title>Südwestrundfunk</title>
 		<link>https://swrbwhls-i.akamaihd.net/hls/live/667638/swrbwd/master.m3u8</link>
-		<thumbnail>http://upload.wikimedia.org/wikipedia/de/thumb/3/33/SWR-Altes-Logo.svg/200px-SWR-Altes-Logo.svg.png</thumbnail>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/SWR_FERNSEHEN_2014.png/800px-SWR_FERNSEHEN_2014.png</thumbnail>
 		<genre>TV</genre>
 		<info>swr</info>
 		<date>08.09.2014</date>
 		<epg></epg>
 		<fanart>http://upload.wikimedia.org/wikipedia/commons/a/a3/SWR_Funkhaus_Stuttgart.jpg</fanart>
 		<mvw_guid>a+tJo4BGb8iA5fj1zZgHkoogvxzREqQLMAzoh/C2LZw=</mvw_guid>
-	</item>
-	<item>
-		<title>Arte</title>
-		<link>http://artelive-lh.akamaihd.net/i/artelive_de@393591/master.m3u8</link>
-		<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Arte_Logo_2011.svg/200px-Arte_Logo_2011.svg.png</thumbnail>
-		<genre>TV</genre>
-		<info>arte</info>
-		<date>31.07.2014</date>
-		<epg></epg>
-		<fanart>http://upload.wikimedia.org/wikipedia/commons/thumb/4/47/2011_Arte_Strasbourg.JPG/1280px-2011_Arte_Strasbourg.JPG</fanart>
-		<mvw_guid>F//sNiaOlTSlc4ep2m+eYLIk8sYqoQwTCMxYtJ1DIR8=</mvw_guid>
-	</item>
-	<item>
-		<title>Arte (FR)</title>
-		<link>http://artelive-lh.akamaihd.net/i/artelive_fr@344805/master.m3u8</link>
-		<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Arte_Logo_2011.svg/200px-Arte_Logo_2011.svg.png</thumbnail>
-		<genre>TV</genre>
-		<info>arte</info>
-		<date>31.07.2014</date>
-		<epg></epg>
-		<fanart>http://upload.wikimedia.org/wikipedia/commons/thumb/4/47/2011_Arte_Strasbourg.JPG/1280px-2011_Arte_Strasbourg.JPG</fanart>
-		<mvw_guid>66DvRJHHA0cdS6XE6LU68DcopE8BLqgWdCSCTIjV+mw=</mvw_guid>
-	</item>
-	<item>
-		<title>KiKA</title>
-		<link>http://kikade-lh.akamaihd.net/i/livetvkika_de@450035/master.m3u8</link>
-		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Kika_2012.svg/320px-Kika_2012.svg.png</thumbnail>
-		<genre>TV</genre>
-		<info>kinderkanal</info>
-		<date>31.12.2015</date>
-		<epg></epg>
-		<fanart>http://www.ardmediathek.de/image/00/29/02/60/50/555337067/16x9/960</fanart>
-		<mvw_guid>1vALnwIbWtAbBMiAr3W9LbDqJkd3jT4LWWxk2gt4BPg=</mvw_guid>
-	</item>
-	<item>
-		<title>Phoenix</title>
-		<link>http://zdfhls19-i.akamaihd.net/hls/live/744752/de/high/master.m3u8</link>
-		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Phoenix_Logo_2012.svg/320px-Phoenix_Logo_2012.svg.png</thumbnail>
-		<genre>TV</genre>
-		<info>phoenix</info>
-		<date>31.12.2015</date>
-		<epg></epg>
-		<fanart>https://upload.wikimedia.org/wikipedia/commons/3/3a/Phoenix.JPG</fanart>
-		<mvw_guid>2pI/Td9FwTgt34o27tztTaL6caW5ZzdvlFTh3Rrq2cw=</mvw_guid>
 	</item>
 	<item>
 		<title>HR</title>
@@ -258,7 +214,7 @@
 	<item>
 		<title>ARD-Alpha</title>
 		<link>http://brlive-lh.akamaihd.net/i/bralpha_germany@119899/master.m3u8</link>
-		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/320px-ARD_alpha.svg.png</thumbnail>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/3/33/ARD-alpha_HD_2019.png</thumbnail>
 		<genre>TV</genre>
 		<info>ardalpha</info>
 		<date>10.03.2016</date>
@@ -271,13 +227,13 @@
 
 <channel>
 <name>ZDF</name>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/ZDF.svg/200px-ZDF.svg.png</thumbnail>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/800px-ZDF_logo.svg.png</thumbnail>
 <fanart></fanart>
 <items>
 	<item>
 		<title>ZDF</title>
 		<link>http://zdf-hls-01.akamaized.net/hls/live/2002460/de/high/master.m3u8</link>
-		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/ZDF.svg/200px-ZDF.svg.png</thumbnail>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/800px-ZDF_logo.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>zdf</info>
 		<date>10.05.2014</date>
@@ -288,7 +244,7 @@
 	<item>
 		<title>ZDFneo</title>
 		<link>http://zdf-hls-02.akamaized.net/hls/live/2002461/de/high/master.m3u8</link>
-		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/ZDFneo.svg/200px-ZDFneo.svg.png</thumbnail>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ZDFneo2017_Logo.svg/512px-ZDFneo2017_Logo.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>zdf_neo</info>
 		<date>10.05.2014</date>
@@ -299,7 +255,7 @@
 	<item>
 		<title>ZDFinfo</title>
 		<link>http://zdfhls17-i.akamaihd.net/hls/live/744750/de/high/master.m3u8</link>
-		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ZDFinfo_2011.svg/200px-ZDFinfo_2011.svg.png</thumbnail>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ZDFinfo_2011.svg/560px-ZDFinfo_2011.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>zdf_info</info>
 		<date>10.05.2014</date>
@@ -310,7 +266,7 @@
 	<item>
 		<title>3sat</title>
 		<link>http://zdfhls18-i.akamaihd.net/hls/live/744751/dach/high/master.m3u8</link>
-		<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/3sat-Logo.svg/500px-3sat-Logo.svg.png</thumbnail>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/640px-3sat_2019.svg.png</thumbnail>
 		<genre>TV</genre>
 		<info>3sat</info>
 		<date>13.03.2015</date>
@@ -322,10 +278,54 @@
 </channel>
 
 <channel>
-<name>Sonstiges</name>
-<thumbnail>http://upload.wikimedia.org/wikipedia/commons/0/05/Effelsberg_total2.jpg</thumbnail>
-<fanart>http://upload.wikimedia.org/wikipedia/commons/c/cd/Arecibo_Observatory_Aerial_View.jpg</fanart>
+<name>Sonstige</name>
+<thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/media/Sonstige.png</thumbnail>
+<fanart>http://upload.wikimedia.org/wikipedia/commons/0/05/Effelsberg_total2.jpg</fanart>
 <items>
+	<item>
+		<title>KiKA</title>
+		<link>http://kikade-lh.akamaihd.net/i/livetvkika_de@450035/master.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Kika_2012.svg/320px-Kika_2012.svg.png</thumbnail>
+		<genre>TV</genre>
+		<info>kinderkanal</info>
+		<date>31.12.2015</date>
+		<epg></epg>
+		<fanart>http://www.ardmediathek.de/image/00/29/02/60/50/555337067/16x9/960</fanart>
+		<mvw_guid>1vALnwIbWtAbBMiAr3W9LbDqJkd3jT4LWWxk2gt4BPg=</mvw_guid>
+	</item>
+	<item>
+		<title>Phoenix</title>
+		<link>http://zdfhls19-i.akamaihd.net/hls/live/744752/de/high/master.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Phoenix-logo-2018.svg/512px-Phoenix-logo-2018.svg.png</thumbnail>
+		<genre>TV</genre>
+		<info>phoenix</info>
+		<date>31.12.2015</date>
+		<epg></epg>
+		<fanart>https://upload.wikimedia.org/wikipedia/commons/3/3a/Phoenix.JPG</fanart>
+		<mvw_guid>2pI/Td9FwTgt34o27tztTaL6caW5ZzdvlFTh3Rrq2cw=</mvw_guid>
+	</item>
+	<item>
+		<title>Arte</title>
+		<link>http://artelive-lh.akamaihd.net/i/artelive_de@393591/master.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arte_Logo_2017.svg/145px-Arte_Logo_2017.svg.png</thumbnail>
+		<genre>TV</genre>
+		<info>arte</info>
+		<date>31.07.2014</date>
+		<epg></epg>
+		<fanart>http://upload.wikimedia.org/wikipedia/commons/thumb/4/47/2011_Arte_Strasbourg.JPG/1280px-2011_Arte_Strasbourg.JPG</fanart>
+		<mvw_guid>F//sNiaOlTSlc4ep2m+eYLIk8sYqoQwTCMxYtJ1DIR8=</mvw_guid>
+	</item>
+	<item>
+		<title>Arte (FR)</title>
+		<link>http://artelive-lh.akamaihd.net/i/artelive_fr@344805/master.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arte_Logo_2017.svg/145px-Arte_Logo_2017.svg.png</thumbnail>
+		<genre>TV</genre>
+		<info>arte</info>
+		<date>31.07.2014</date>
+		<epg></epg>
+		<fanart>http://upload.wikimedia.org/wikipedia/commons/thumb/4/47/2011_Arte_Strasbourg.JPG/1280px-2011_Arte_Strasbourg.JPG</fanart>
+		<mvw_guid>66DvRJHHA0cdS6XE6LU68DcopE8BLqgWdCSCTIjV+mw=</mvw_guid>
+	</item>
 	<item>
 		<title>ORF-1</title>
 		<link>https://orf1.mdn.ors.at/out/u/orf1/qxb/manifest.m3u8</link>
@@ -391,12 +391,12 @@
 	<item>
 		<title>NASA - ISS HD Earth Viewing Experiment</title>
 		<link>http://iphone-streaming.ustream.tv/uhls/17074538/streams/live/iphone/playlist.m3u8</link>
-		<thumbnail>http://static-cdn1.ustream.tv/i/channel/live/1_17074538,192x108,b:2020030403.jpg</thumbnail>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/ISS_after_completion_%28as_of_June_2006%29.jpg/640px-ISS_after_completion_%28as_of_June_2006%29.jpg</thumbnail>
 		<genre>TV</genre>
 		<info>iss_tracking</info>
 		<date>24.03.2015</date>
 		<epg></epg>
-		<fanart>http://upload.wikimedia.org/wikipedia/commons/d/d7/STS-133_International_Space_Station_after_undocking_5.jpg</fanart>
+		<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/STS-133_International_Space_Station_after_undocking_5.jpg/1280px-STS-133_International_Space_Station_after_undocking_5.jpg</fanart>
 		<mvw_guid></mvw_guid>
 	</item>
 	<item>

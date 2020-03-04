@@ -16,5 +16,11 @@ addon: clean
 	cd .. ; zip -r $(PROJECT).zip . \
 		-i@/dev/shm/$(PROJECT).include
 
+copy:
+	cp -r addon.py addon.xml deutschesender.xml \
+	  $$HOME/.kodi/addons/$(PROJECT)/.
+	cp deutschesender.xml \
+	  $$HOME/.kodi/userdata/addon_data/$(PROJECT)/deutschesender.xml
+
 clean:
 	test \! -f ../$(PROJECT).zip || mv ../$(PROJECT).zip ../$(PROJECT).old.zip

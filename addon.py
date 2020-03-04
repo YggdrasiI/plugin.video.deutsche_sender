@@ -107,8 +107,8 @@ def fetch_channels_from_xml(xml_file, channel_name=None):
         for channel in channels:
             ret.append({
                 'name': channel.findtext("name"),
-                # 'thumbnail': item.findtext("thumbnail"),
-                # 'fanart': item.findtext("fanart"),
+                'thumbnail': channel.findtext("thumbnail"),
+                'fanart': channel.findtext("fanart"),
             })
         return ret
     else:
@@ -130,10 +130,22 @@ def fetch_channels_from_xml(xml_file, channel_name=None):
 def build_url(query):
     return base_url + '?' + urllib.urlencode(query)
 
+def resolve_local_paths(path):
+    # Translate local paths
+    if path and path.startswith("/"):
+        path = os.path.join(artfolder, path)
+
+    return path
+
 # Main code
 
 base_url = sys.argv[0]
 addon = xbmcaddon.Addon()
+
+# For local images
+addonfolder = addon.getAddonInfo('path').decode('utf-8')
+artfolder = os.path.join(addonfolder, "resources", "media")
+
 
 # RunScript handling
 if sys.argv[1] == 'update_xml_file':
@@ -159,7 +171,18 @@ else:
         for channel in channels:
             channel_name = channel.get('name', '?')
             url = build_url({'mode': 'channel', 'channel_name': channel_name})
-            li = xbmcgui.ListItem(channel_name, iconImage='DefaultFolder.png')
+
+            fanartImage = channel.get("fanart", "DefaultFolder.png")
+            thumbnailImage = channel.get("thumbnail", "DefaultFolder.png")
+
+            fanartImage = resolve_local_paths(fanartImage)
+            thumbnailImage = resolve_local_paths(thumbnailImage)
+
+            li = xbmcgui.ListItem(
+                channel_name,
+                iconImage=fanartImage,
+                thumbnailImage=thumbnailImage,
+            )
 
             # Set 'IsPlayable' property to 'true'.
             # This is mandatory for playable items!
@@ -187,8 +210,17 @@ else:
             url = item.get('link', '?')
             # if "://" in url: # seems not required
             #    url = urllib.quote(url)
+            fanartImage = item.get("fanart", "DefaultFolder.png")
+            thumbnailImage = item.get("thumbnail", "DefaultFolder.png")
 
-            li = xbmcgui.ListItem(title, iconImage='DefaultVideo.png')
+            fanartImage = resolve_local_paths(fanartImage)
+            thumbnailImage = resolve_local_paths(thumbnailImage)
+
+            li = xbmcgui.ListItem(
+                title,
+                iconImage=fanartImage,
+                thumbnailImage=thumbnailImage,
+                )
             li.setProperty('IsPlayable', 'true')
             is_folder = False
             listing.append((url, li, is_folder))
