@@ -105,11 +105,20 @@ def fetch_channels_from_xml(xml_file, channel_name=None):
         channels = elems.findall("channel")
         ret = []
         for channel in channels:
+            """
             ret.append({
                 'name': channel.findtext("name"),
                 'thumbnail': channel.findtext("thumbnail"),
                 'fanart': channel.findtext("fanart"),
+                'desc': channel.findtext("desc"),
             })
+            """
+            it = {}
+            for child in channel:
+                if child.tag != "items":
+                    it[child.tag] = child.text
+
+            ret.append(it)
         return ret
     else:
         # Return list of items for channel
@@ -122,6 +131,7 @@ def fetch_channels_from_xml(xml_file, channel_name=None):
                     it = {}
                     for child in item:
                         it[child.tag] = child.text
+
                     ret.append(it)
                 break
         return ret
@@ -162,12 +172,18 @@ else:
 
             fanartImage = channel.get("fanart", "DefaultFolder.png")
             thumbnailImage = channel.get("thumbnail", "DefaultFolder.png")
+            desc = channel.get("desc")
+            if not desc:
+                desc = " "  # Avoids "No information available"-Label
 
-            li = xbmcgui.ListItem(
-                channel_name,
-                iconImage=fanartImage,
-                thumbnailImage=thumbnailImage,
-            )
+            li = xbmcgui.ListItem(channel_name)
+            li.setArt({'poster': thumbnailImage,
+                       'fanart': fanartImage,
+                       'banner' : fanartImage,
+                       'icon': thumbnailImage,
+                       'thumb': thumbnailImage,
+                      })
+            li.setInfo("video", {"plot": desc})
 
             # Set 'IsPlayable' property to 'true'.
             # This is mandatory for playable items!
@@ -197,12 +213,19 @@ else:
             #    url = urllib.quote(url)
             fanartImage = item.get("fanart", "DefaultFolder.png")
             thumbnailImage = item.get("thumbnail", "DefaultFolder.png")
+            desc = item.get("desc")
+            if not desc:
+                desc = " "  # Avoids "No information available"-Label
 
-            li = xbmcgui.ListItem(
-                title,
-                iconImage=fanartImage,
-                thumbnailImage=thumbnailImage,
-                )
+            li = xbmcgui.ListItem(title)
+            li.setArt({'poster': thumbnailImage,
+                       'fanart': fanartImage,
+                       'banner' : thumbnailImage,
+                       'icon': thumbnailImage,
+                       'thumb': thumbnailImage,
+                      })
+            li.setInfo("video", {"plot": desc})
+
             li.setProperty('IsPlayable', 'true')
             is_folder = False
             listing.append((url, li, is_folder))
