@@ -3,8 +3,8 @@
   <title>Deutsche Sender</title>
   <genre>TV</genre>
   <description>Livestreams</description>
-  <thumbnail>http://community-links.googlecode.com/svn/icons/news-icon.png</thumbnail>
-  <fanart>http://community-links.googlecode.com/svn/icons/news-fanart.jpg</fanart>
+	<thumbnail>https://raw.githubusercontent.com/YggdrasiI/plugin.video.deutsche_sender/master/resources/media/news-icon.png</thumbnail>
+  <fanart>https://raw.githubusercontent.com/YggdrasiI/plugin.video.deutsche_sender/master/resources/media/fanart_b.jpg</fanart>
   <date>22.10.2017</date>
   <credits>Gammel</credits>
  </channels_info>
@@ -22,6 +22,7 @@
 		<date>10.05.2014</date>
 		<epg></epg>
 		<fanart>http://www.daserste.de/specials/das-erste-logo-100~_v-facebook1200_d7e296.jpg</fanart>
+		<mvw_guid>G+4BZEx8lPnkjc2wtOop3Y/eH/n8K23/HKn8vphnmHE=</mvw_guid>
 	</item>
 	<item>
 		<title>Tagesschau (Live)</title>
@@ -32,6 +33,7 @@
 		<date>08.05.2014</date>
 		<epg></epg>
 		<fanart>https://upload.wikimedia.org/wikipedia/commons/4/44/Tagesschau_kulissen.JPG</fanart>
+		<mvw_guid>J4GK7KIFeZJdcXmTSGO/8VzcQWyVd1lWRsHs5kndxhQ=</mvw_guid>
 	</item>
 	<item>
 		<title>WDR</title>
@@ -42,6 +44,7 @@
 		<date>11.08.2013</date>
 		<epg></epg>
 		<fanart></fanart>
+		<mvw_guid>IPnZnvJwLQkdg/ekw380xgUVmyVFXJ4gw0dqv1GHBwE=</mvw_guid>
 	</item>
 	<item>
 		<title>NDR Fernsehen Hamburg</title>
@@ -52,6 +55,7 @@
 		<date>08.05.2014</date>
 		<epg></epg>
 		<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/13-02-19-landtag-h-vorab-N3S_1766.NEF.jpg/1280px-13-02-19-landtag-h-vorab-N3S_1766.NEF.jpg</fanart>
+		<mvw_guid>U7SSfRDFfcpwSP9vNnfIG0tGwc8x1oCsrdqFQ2xSvTc=</mvw_guid>
 	</item>
 	<item>
 		<title>NDR Fernsehen Mecklenburg-Vorpommern</title>
@@ -62,6 +66,7 @@
 		<date>08.05.2014</date>
 		<epg></epg>
 		<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/13-02-19-landtag-h-vorab-N3S_1766.NEF.jpg/1280px-13-02-19-landtag-h-vorab-N3S_1766.NEF.jpg</fanart>
+		<mvw_guid>U7SSfRDFfcpwSP9vNnfIG0tGwc8x1oCsrdqFQ2xSvTc=</mvw_guid>
 	</item>
 	<item>
 		<title>NDR Fernsehen Niedersachsen</title>
@@ -72,6 +77,7 @@
 		<date>08.05.2014</date>
 		<epg></epg>
 		<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/13-02-19-landtag-h-vorab-N3S_1766.NEF.jpg/1280px-13-02-19-landtag-h-vorab-N3S_1766.NEF.jpg</fanart>
+		<mvw_guid>U7SSfRDFfcpwSP9vNnfIG0tGwc8x1oCsrdqFQ2xSvTc=</mvw_guid>
 	</item>
 	<item>
 		<title>NDR Fernsehen Schleswig-Holstein</title>
@@ -82,6 +88,7 @@
 		<date>08.05.2014</date>
 		<epg></epg>
 		<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/13-02-19-landtag-h-vorab-N3S_1766.NEF.jpg/1280px-13-02-19-landtag-h-vorab-N3S_1766.NEF.jpg</fanart>
+		<mvw_guid>U7SSfRDFfcpwSP9vNnfIG0tGwc8x1oCsrdqFQ2xSvTc=</mvw_guid>
 	</item>
 	<item>
 		<title>rbb Berlin</title>
@@ -92,6 +99,7 @@
 		<date>21.12.2013</date>
 		<epg></epg>
 		<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/RBB_Babelsberg.JPG/1280px-RBB_Babelsberg.JPG</fanart>
+		<mvw_guid>BqDHuhb2nUSBu/X7rekjMDoS9yb/0ZB1ANzPZL+1IrM=</mvw_guid>
 	</item>
 	<item>
 		<title>rbb Brandenburg</title>
@@ -102,6 +110,7 @@
 		<date>21.12.2013</date>
 		<epg></epg>
 		<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/RBB_Babelsberg.JPG/1280px-RBB_Babelsberg.JPG</fanart>
+		<mvw_guid>+1EUDCnSAuoFo+LkWDBfOxQsvF8YxGWk2C/UYwLW79Y=</mvw_guid>
 	</item>
 	<item>
 		<title>MDR Sachsen-Anhalt</title>
@@ -112,6 +121,7 @@
 		<date>08.05.2014</date>
 		<epg></epg>
 		<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/131008-MDR-Leipzig-Studio.JPG/1280px-131008-MDR-Leipzig-Studio.JPG</fanart>
+		<mvw_guid>WF3U5mUcHwwTrhO/aKXBttVwJlkEBuBEQ28MUrwDItw=</mvw_guid>
 	</item>
 	<item>
 		<title>MDR Sachsen</title>
@@ -122,6 +132,7 @@
 		<date>08.05.2014</date>
 		<epg></epg>
 		<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/131008-MDR-Leipzig-Studio.JPG/1280px-131008-MDR-Leipzig-Studio.JPG</fanart>
+		<mvw_guid>714ZnzIfox1EbOIv0XDucJj+9BYJDkFH2RHP2yol4Eo=</mvw_guid>
 	</item>
 	<item>
 		<title>MDR Thüringen</title>
@@ -132,6 +143,7 @@
 		<date>08.05.2014</date>
 		<epg></epg>
 		<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/131008-MDR-Leipzig-Studio.JPG/1280px-131008-MDR-Leipzig-Studio.JPG</fanart>
+		<mvw_guid>ICb2aFptF6CkAewVSmZ0QMfPq4n/U5y4JkYa2rPDx4A=</mvw_guid>
 	</item>
 	<item>
 		<title>Saarländischer Rundfunk</title>
@@ -142,9 +154,10 @@
 		<date>24.07.2014</date>
 		<epg></epg>
 		<fanart>http://upload.wikimedia.org/wikipedia/commons/3/37/Bundesarchiv_B_145_Bild-P094175%2C_Saarbr%C3%BCcken%2C_Saarl%C3%A4ndischer_Rundfunk.jpg</fanart>
+		<mvw_guid>N4Z2QOBje8BFDxbG3TAF3ezYciZISAroOETf6B7AgQ4=</mvw_guid>
 	</item>
 	<item>
-		<title>Bayerischer Rundfunk</title>
+		<title>Bayerischer Rundfunk Nord</title>
 		<link>http://livestreams.br.de/i/bfsnord_germany@119898/master.m3u8</link>
 		<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/9/98/BR_Dachmarke.svg/200px-BR_Dachmarke.svg.png</thumbnail>
 		<genre>TV</genre>
@@ -152,6 +165,18 @@
 		<date>07.09.2014</date>
 		<epg></epg>
 		<fanart>http://upload.wikimedia.org/wikipedia/commons/4/47/Entrance_Bayerischer_Rundfunk_Fernsehstudio_Unterf%C3%B6hring_DE_2010-06-09.jpg</fanart>
+		<mvw_guid>bc3cXegmen4itWfdbRQIT+tSIdDV+HRGDpToaK+Pu3U=</mvw_guid>
+	</item>
+	<item>
+		<title>Bayerischer Rundfunk Süd</title>
+		<link>http://livestreams.br.de/i/bfsnord_germany@119898/master.m3u8</link>
+		<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/9/98/BR_Dachmarke.svg/200px-BR_Dachmarke.svg.png</thumbnail>
+		<genre>TV</genre>
+		<info>br</info>
+		<date>07.09.2014</date>
+		<epg></epg>
+		<fanart>http://upload.wikimedia.org/wikipedia/commons/4/47/Entrance_Bayerischer_Rundfunk_Fernsehstudio_Unterf%C3%B6hring_DE_2010-06-09.jpg</fanart>
+		<mvw_guid>rrumMDT+h0RJ5Uo0qUkIgXzU1OYBcuCkmNMxcengLIU=</mvw_guid>
 	</item>
 	<item>
 		<title>Südwestrundfunk</title>
@@ -162,6 +187,7 @@
 		<date>08.09.2014</date>
 		<epg></epg>
 		<fanart>http://upload.wikimedia.org/wikipedia/commons/a/a3/SWR_Funkhaus_Stuttgart.jpg</fanart>
+		<mvw_guid>a+tJo4BGb8iA5fj1zZgHkoogvxzREqQLMAzoh/C2LZw=</mvw_guid>
 	</item>
 	<item>
 		<title>Arte</title>
@@ -172,6 +198,18 @@
 		<date>31.07.2014</date>
 		<epg></epg>
 		<fanart>http://upload.wikimedia.org/wikipedia/commons/thumb/4/47/2011_Arte_Strasbourg.JPG/1280px-2011_Arte_Strasbourg.JPG</fanart>
+		<mvw_guid>F//sNiaOlTSlc4ep2m+eYLIk8sYqoQwTCMxYtJ1DIR8=</mvw_guid>
+	</item>
+	<item>
+		<title>Arte (FR)</title>
+		<link>http://artelive-lh.akamaihd.net/i/artelive_fr@344805/master.m3u8</link>
+		<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Arte_Logo_2011.svg/200px-Arte_Logo_2011.svg.png</thumbnail>
+		<genre>TV</genre>
+		<info>arte</info>
+		<date>31.07.2014</date>
+		<epg></epg>
+		<fanart>http://upload.wikimedia.org/wikipedia/commons/thumb/4/47/2011_Arte_Strasbourg.JPG/1280px-2011_Arte_Strasbourg.JPG</fanart>
+		<mvw_guid>66DvRJHHA0cdS6XE6LU68DcopE8BLqgWdCSCTIjV+mw=</mvw_guid>
 	</item>
 	<item>
 		<title>KiKA</title>
@@ -182,6 +220,7 @@
 		<date>31.12.2015</date>
 		<epg></epg>
 		<fanart>http://www.ardmediathek.de/image/00/29/02/60/50/555337067/16x9/960</fanart>
+		<mvw_guid>1vALnwIbWtAbBMiAr3W9LbDqJkd3jT4LWWxk2gt4BPg</mvw_guid>
 	</item>
 	<item>
 		<title>Phoenix</title>
@@ -192,6 +231,7 @@
 		<date>31.12.2015</date>
 		<epg></epg>
 		<fanart>https://upload.wikimedia.org/wikipedia/commons/3/3a/Phoenix.JPG</fanart>
+		<mvw_guid>2pI/Td9FwTgt34o27tztTaL6caW5ZzdvlFTh3Rrq2cw=</mvw_guid>
 	</item>
 	<item>
 		<title>HR</title>
@@ -202,6 +242,7 @@
 		<date>10.03.2016</date>
 		<epg></epg>
 		<fanart>https://upload.wikimedia.org/wikipedia/commons/1/13/Hessischer-rundfunk-ffm001.jpg</fanart>
+		<mvw_guid>LgNZRZSLQKW0WpYWfCptohLpBOgxiFerjI7o6x+YbrE=</mvw_guid>
 	</item>
 	<item>
 		<title>ARD One</title>
@@ -212,6 +253,7 @@
 		<date>08.12.2018</date>
 		<epg></epg>
 		<fanart></fanart>
+		<mvw_guid>8fVoXIKinavfzanw5DuMRjkc4QIbF2dJRO0eIQqe83Q=</mvw_guid>
 	</item>
 	<item>
 		<title>ARD-Alpha</title>
@@ -222,6 +264,7 @@
 		<date>10.03.2016</date>
 		<epg></epg>
 		<fanart></fanart>
+		<mvw_guid>bdgT3usdgNUdV4hb2sczkKl37GYjJyDO09ivado7fbo=</mvw_guid>
 	</item>
 </items>
 </channel>
@@ -240,6 +283,7 @@
 		<date>10.05.2014</date>
 		<epg></epg>
 		<fanart>http://th09.deviantart.net/fs71/PRE/f/2012/239/f/4/xbmc_addon_wallpaper_zdf_by_marco126-d5ckqk2.jpg</fanart>
+		<mvw_guid>ZcK7rZKvd2xpJU/IFM5QhAshboSHX4zDpw72M/xZmFk=</mvw_guid>
 	</item>
 	<item>
 		<title>ZDFneo</title>
@@ -250,6 +294,7 @@
 		<date>10.05.2014</date>
 		<epg></epg>
 		<fanart></fanart>
+		<mvw_guid>9yK2SKU/SDZ8tT2bIaDvCienK/0EV92u8cUSpmXzTG0=</mvw_guid>
 	</item>
 	<item>
 		<title>ZDFinfo</title>
@@ -260,6 +305,7 @@
 		<date>10.05.2014</date>
 		<epg></epg>
 		<fanart></fanart>
+		<mvw_guid>pNn2QrpVx/TZEMtbGaQGIorv0GAIs7QshlQG4dL4TMo=</mvw_guid>
 	</item>
 	<item>
 		<title>3sat</title>
@@ -270,6 +316,7 @@
 		<date>13.03.2015</date>
 		<epg></epg>
 		<fanart>http://upload.wikimedia.org/wikipedia/commons/7/78/ZDF_Sendezentrum_2.jpg</fanart>
+		<mvw_guid>gElUoOgKGCThzK4Vjj6f82Tgya9oEzcFuFd95ZRiM/M=</mvw_guid>
 	</item>
 </items>
 </channel>
@@ -280,14 +327,48 @@
 <fanart>http://upload.wikimedia.org/wikipedia/commons/c/cd/Arecibo_Observatory_Aerial_View.jpg</fanart>
 <items>
 	<item>
-		<title>Joiz</title>
-		<link>http://ooyalahd2-f.akamaihd.net/i/joizgerm01_delivery@324125/index_2528_av-p.m3u8</link>
-		<thumbnail>http://upload.wikimedia.org/wikipedia/commons/thumb/1/13/JOIZ_black.svg/200px-JOIZ_black.svg.png</thumbnail>
+		<title>ORF-1</title>
+		<link>https://orf1.mdn.ors.at/out/u/orf1/qxb/manifest.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/ORF_1_2019.svg/640px-ORF_1_2019.svg.png</thumbnail>
 		<genre>TV</genre>
-		<info>joiz</info>
-		<date>08.10.2014</date>
+		<info>ORF-1</info>
+		<date>04.03.2020</date>
 		<epg></epg>
-		<fanart>http://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Joiz_studio.jpg/1280px-Joiz_studio.jpg</fanart>
+		<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/ORF_1_2019.svg/1000px-ORF_1_2019.svg.png</fanart>
+		<mvw_guid>Hwnb9445Eot2HAH9pQhx0wiNDWBwa9m9WlWeZU4HQRI=</mvw_guid>
+	</item>
+	<item>
+		<title>ORF-2</title>
+		<link>https://orf2.mdn.ors.at/out/u/orf2/qxb/manifest.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/512px-ORF2_logo_n.svg.png</thumbnail>
+		<genre>TV</genre>
+		<info>ORF-2</info>
+		<date>04.03.2020</date>
+		<epg></epg>
+		<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/1280px-ORF2_logo_n.svg.png</fanart>
+		<mvw_guid>11y5BUSH37Z/m6qboXbNFiKhFu/bJeEQ7EyrFQiT240=</mvw_guid>
+	</item>
+	<item>
+		<title>ORF-3</title>
+		<link>https://orf3.mdn.ors.at/out/u/orf3/qxb/manifest.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/ORF_III_Logo_Monochrom.svg/512px-ORF_III_Logo_Monochrom.svg.png</thumbnail>
+		<genre>TV</genre>
+		<info>ORF-3</info>
+		<date>04.03.2020</date>
+		<epg></epg>
+		<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/ORF_III_Logo_Monochrom.svg/1280px-ORF_III_Logo_Monochrom.svg.png</fanart>
+		<mvw_guid>FlZkd/AxXjnWQBjcHpfwYFIGzCHBvQ1FKB9cu6z6yZA=</mvw_guid>
+	</item>
+	<item>
+		<title>ORF-Sport</title>
+		<link>https://orfs.mdn.ors.at/out/u/orfs/qxb/manifest.m3u8</link>
+		<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/ORF_Sport%2B.svg/512px-ORF_Sport%2B.svg.png</thumbnail>
+		<genre>TV</genre>
+		<info>ORF-Sport</info>
+		<date>04.03.2020</date>
+		<epg></epg>
+		<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/ORF_Sport%2B.svg/1280px-ORF_Sport%2B.svg.png</fanart>
+		<mvw_guid>KtLzN9p+eS6XLx2dfzLBO2xiXiqE2P0Ogct3j0eDxQ0=</mvw_guid>
 	</item>
 	<item>
 		<title>DAF</title>
@@ -298,6 +379,7 @@
 		<date>25.02.2015</date>
 		<epg></epg>
 		<fanart>http://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Deutsche-boerse-parkett-ffm001.jpg/1280px-Deutsche-boerse-parkett-ffm001.jpg</fanart>
+		<mvw_guid></mvw_guid>
 	</item>
 	<item>
 		<title>N24</title>
@@ -308,6 +390,7 @@
 		<date>13.03.2015</date>
 		<epg></epg>
 		<fanart></fanart>
+		<mvw_guid></mvw_guid>
 	</item>
 	<item>
 		<title>eRtv</title>
@@ -318,6 +401,7 @@
 		<date>22.03.2016</date>
 		<epg></epg>
 		<fanart></fanart>
+		<mvw_guid></mvw_guid>
 	</item>
 	<item>
 		<title>ServusTV</title>
@@ -328,6 +412,7 @@
 		<date>27.03.2016</date>
 		<epg></epg>
 		<fanart></fanart>
+		<mvw_guid></mvw_guid>
 	</item>
 	<item>
 		<title>DW-TV</title>
@@ -338,6 +423,7 @@
 		<date>21.08.2016</date>
 		<epg></epg>
 		<fanart></fanart>
+		<mvw_guid>fm+b1ZdmK8ZE5sF0lW0wBaZk2skvU4Jggo7xhUnIrj4=</mvw_guid>
 	</item>
 </items>
 </channel>
@@ -350,12 +436,13 @@
 	<item>
 		<title>NASA - ISS HD Earth Viewing Experiment</title>
 		<link>http://iphone-streaming.ustream.tv/uhls/17074538/streams/live/iphone/playlist.m3u8</link>
-		<thumbnail>http://upload.wikimedia.org/wikipedia/uk/thumb/e/e1/Logo-nasa-800px.png/700px-Logo-nasa-800px.png</thumbnail>
+		<thumbnail>http://static-cdn1.ustream.tv/i/channel/live/1_17074538,192x108,b:2020030403.jpg</thumbnail>
 		<genre>TV</genre>
 		<info>iss_tracking</info>
 		<date>24.03.2015</date>
 		<epg></epg>
 		<fanart>http://upload.wikimedia.org/wikipedia/commons/d/d7/STS-133_International_Space_Station_after_undocking_5.jpg</fanart>
+		<mvw_guid></mvw_guid>
 	</item>
 	<item>
 		<title>Al Jazeera</title>
@@ -366,6 +453,7 @@
 		<date>24.03.2015</date>
 		<epg></epg>
 		<fanart>http://upload.wikimedia.org/wikipedia/commons/3/36/Al_Jazeera_English_Newsdesk.jpg</fanart>
+		<mvw_guid></mvw_guid>
 	</item>
 </items>
 </channel>
