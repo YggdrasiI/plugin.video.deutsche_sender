@@ -156,11 +156,17 @@ else:
     # addon = xbmcaddon.Addon()
 
     # Set default view
+    # Warning: If kodi cached the view of an folder, the
+    # setting will only be used if kodi re-evaluate it.
     force_view = int(addon.getSetting(u"force_view"))
     if force_view:
-        # 50 (List) or 51 (Wide List)
+        id_map = {1: 50, 2: 55}
+        # 50 (List) or 51 (Wide List) confluene, it depends on the skin...
+        # 50 (List) or 55 (Wide List) estuary, it depends on the skin...
+        xbmc.log("Force view on {}".format(force_view),
+                 level=xbmc.LOGNOTICE)
         xbmc.executebuiltin(u"Container.SetViewMode(%i)" %
-                            (force_view + 49))
+                            (id_map[force_view]))  # (force_view + 49))
 
     mode = args.get('mode', None)
     if mode is None:
@@ -172,17 +178,22 @@ else:
 
             fanartImage = channel.get("fanart", "DefaultFolder.png")
             thumbnailImage = channel.get("thumbnail", "DefaultFolder.png")
+            # posterImage = fanartImage.replace("/fanart/", "/poster/")
             desc = channel.get("desc")
             if not desc:
                 desc = " "  # Avoids "No information available"-Label
 
             li = xbmcgui.ListItem(channel_name)
-            li.setArt({'poster': thumbnailImage,
-                       'fanart': fanartImage,
-                       'banner' : fanartImage,
-                       'icon': thumbnailImage,
-                       'thumb': thumbnailImage,
-                      })
+            li.setArt({
+                'thumb': thumbnailImage,
+                'poster': fanartImage,
+                'banner': fanartImage,
+                'fanart': fanartImage,
+                # 'clearart' : fanartImage,
+                # 'clearlogo' : fanartImage,
+                # 'landscape': fanartImage,
+                'icon': thumbnailImage,
+            })
             li.setInfo("video", {"plot": desc})
 
             # Set 'IsPlayable' property to 'true'.

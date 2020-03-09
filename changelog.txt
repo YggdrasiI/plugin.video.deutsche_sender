@@ -1,3 +1,6 @@
+v1.3.0 (2020-03-09)
+- Add icons and fanart images
+
 v1.2.0 (2020-03-04)
 - Update stream urls
 - Remove unavailable sources

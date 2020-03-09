@@ -21,6 +21,8 @@ copy:
 	  $$HOME/.kodi/addons/$(PROJECT)/.
 	cp deutschesender.xml \
 	  $$HOME/.kodi/userdata/addon_data/$(PROJECT)/deutschesender.xml
+	rsync -avz --exclude=sources resources/channels/ \
+	  $$HOME/.kodi/addons/$(PROJECT)/resources/channels
 
 clean:
 	test \! -f ../$(PROJECT).zip || mv ../$(PROJECT).zip ../$(PROJECT).old.zip
