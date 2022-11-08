@@ -15,9 +15,9 @@ RATIO="${3:-1.0}"
 
 WITH_BG="${4:-0}"
 
-MAX_DIM="${5:-1200}"  # Bigger images will be rescaled
+MAX_DIM="${5:-700}"  # Bigger images will be rescaled
 
-BORDER=30
+BORDER=60
 BACKGROUND_COLOR="xc:transparent"
 # BACKGROUND_COLOR="xc:green"
 BACKGROUND_COLOR="xc:\"#656060AA\""

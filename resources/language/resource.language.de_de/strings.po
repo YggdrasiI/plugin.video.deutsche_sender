@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30000"
+msgid "German channels"
+msgstr "Deutsche Sender"
+
+msgctxt "#32101"
+msgid "Manage channel file"
+msgstr "Kanaldatei verwalten"
+
+msgctxt "#32110"
+msgid "Source url for updates"
+msgstr "Url für Updates"
+
+msgctxt "#32111"
+msgid "Target file"
+msgstr "Zieldatei"
+
+msgctxt "#32112"
+msgid "Fetch new file"
+msgstr "Neue Kanaldatei laden"
+
+msgctxt "#32115"
+msgid "Force view"
+msgstr "Ansicht erzwingen"
+
+msgctxt "#32116"
+msgid "None"
+msgstr "Deaktiviert"
+
+msgctxt "#32117"
+msgid "List"
+msgstr "Liste"
+
+msgctxt "#32118"
+msgid "Big List"
+msgstr "Breite Liste"
+

@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30000"
+msgid "German channels"
+msgstr ""
+
+msgctxt "#32101"
+msgid "Manage channel file"
+msgstr ""
+
+msgctxt "#32110"
+msgid "Source url for updates"
+msgstr ""
+
+msgctxt "#32111"
+msgid "Target file"
+msgstr ""
+
+msgctxt "#32112"
+msgid "Fetch new file"
+msgstr ""
+
+msgctxt "#32115"
+msgid "Force view"
+msgstr ""
+
+msgctxt "#32116"
+msgid "None"
+msgstr ""
+
+msgctxt "#32117"
+msgid "List"
+msgstr ""
+
+msgctxt "#32118"
+msgid "Big List"
+msgstr ""
+

@@ -4,7 +4,8 @@ import xbmcgui
 import xbmcplugin
 import xbmcaddon
 import urllib
-import urlparse
+from urllib.parse import urlparse, parse_qs, urlencode
+# from urllib.parse import quote
 import os.path
 import xml.etree.ElementTree as ET
 
@@ -13,7 +14,7 @@ def get_xml_file_path():
     """ Return (path, filename) """
     # .kodi/userdata/addon_data/[addon name]
     path = xbmc.translatePath(
-        addon.getAddonInfo('profile')).decode("utf-8")
+        addon.getAddonInfo('profile'))
     name = addon.getSetting('xml_filename')
 
     return (path, name)
@@ -21,7 +22,7 @@ def get_xml_file_path():
 
 def copy_default_xml_file(target_file_name):
     try:
-        path = addon.getAddonInfo('path').decode('utf-8')
+        path = addon.getAddonInfo('path')
         fin = open(os.path.join(path, "deutschesender.xml"), "r")
         fout = file(target_file_name, "w")
         fout.write(fin.read(-1))  # .encode('utf-8'))
@@ -64,7 +65,7 @@ def update_xml_file():
         if r.status_code != 200:
             raise requests.RequestException(response=r)
 
-        o = file(xml_path+xml_name, "w")
+        o = open(xml_path+xml_name, "wb")
         o.write(r.text.encode(r.encoding))
         # o.write(r.text.encode('utf-8')) # Seems wrong for iso*-input
         o.close()
@@ -98,7 +99,7 @@ def fetch_channels_from_xml(xml_file, channel_name=None):
         # 2. Toggle update
         update_xml_file()
 
-    elems = ET.parse(open(xml_file, "r")).getroot()
+    elems = ET.parse(open(xml_file, "rb")).getroot()
 
     if channel_name is None:
         # Return list of channels
@@ -138,7 +139,7 @@ def fetch_channels_from_xml(xml_file, channel_name=None):
 
 
 def build_url(query):
-    return base_url + '?' + urllib.urlencode(query)
+    return base_url + '?' + urlencode(query)
 
 # Main code
 
@@ -150,7 +151,7 @@ if sys.argv[1] == 'update_xml_file':
     update_xml_file()
 else:
     addon_handle = int(sys.argv[1])
-    args = urlparse.parse_qs(sys.argv[2][1:])
+    args = parse_qs(sys.argv[2][1:])
 
     xbmcplugin.setContent(addon_handle, 'movies')
     # addon = xbmcaddon.Addon()
@@ -164,7 +165,7 @@ else:
         # 50 (List) or 51 (Wide List) confluene, it depends on the skin...
         # 50 (List) or 55 (Wide List) estuary, it depends on the skin...
         xbmc.log("Force view on {}".format(force_view),
-                 level=xbmc.LOGNOTICE)
+                 level=xbmc.LOGINFO)
         xbmc.executebuiltin(u"Container.SetViewMode(%i)" %
                             (id_map[force_view]))  # (force_view + 49))
 
