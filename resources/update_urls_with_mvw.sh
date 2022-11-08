@@ -12,48 +12,40 @@ SENDER_NEXT_FILE="../deutschesender.next.xml"
 cp "$SENDER_FILE" "$SENDER_BACKUP_FILE"
 cp "$SENDER_FILE" "$SENDER_NEXT_FILE"
 
-# Get list of channel GUIDS
-GUIDS=$( grep -A 2 "<mvw_guid>" < "$SENDER_FILE" |\
-  sed -n "s/.*mvw_guid>\(.*\)<\/mvw_guid.*/>\1</p")
+# Get list of channel CDATA
+CDATAS=$( grep -A 2 "<mvw_cdata>" < "$SENDER_FILE" |\
+  sed -n "s/.*mvw_cdata>\(.*\)<\/mvw_cdata.*/\1/p")
 
 # Fetch new urls
-RSS_FEED=$(wget -O - "https://mediathekviewweb.de/feed?query=livestream%20%23livestream")
-# RSS_FEED=$(cat /dev/shm/feed.rss)
+# RSS_FEED=$(wget -O - "https://mediathekviewweb.de/feed?query=livestream%20%23livestream")
+RSS_FEED=$(cat /dev/shm/feed.rss)
 
-
-# echo "Sender: $SENDER"
+N_CHANGED=0
 
 IFS_BACK=$IFS
 IFS="
 "
-for GUID in $GUIDS ; do
-  # echo "Sender-GUID: $GUID"
+for CDATA in $CDATAS ; do
+  echo "Sender-CDATA: $CDATA"
 
-  if [ "$GUID" = "><" ] ; then
-    echo "Empty GUID... skip entry"
+  if [ "$CDATA" = "[]" ] ; then
+    echo "Empty CDATA... skip entry"
     continue
   fi
 
-  NEW_LINK=$( grep -B 2 "$GUID" <<< "$RSS_FEED" |\
+  NEW_LINK=$( grep -F -A 2 "$CDATA" <<< "$RSS_FEED" |\
     grep "<link>" |\
     sed -n "s/.*link>\(.*\)<\/link.*/\1/p")
   
-  # Get channel name(s)
-  CHANNELS=$( grep -B 8 "$GUID" < "$SENDER_FILE" |\
-    grep "<title>" |\
-    sed -n "s/.*title>\(.*\)<\/title.*/\1/p")
-
-  # This only works if GUID is only used one time.
-  # Sometimes, multiple channels links on the same entry...
-  ## Current Link for this GUID
-  #CUR_LINK=$( grep -B 8 "$GUID" < "$SENDER_FILE" |\
-  #  grep "<link>" |\
-  #  sed -n "s/.*link>\(.*\)<\/link.*/\1/p")
+	# Get channel name(s) for this CDATA
+	CHANNELS=$( grep -F -B 11 "$CDATA" < "$SENDER_FILE" |\
+		grep "<title>" |\
+		sed -n "s/.*title>\(.*\)<\/title.*/\1/p")
 
   for CHANNEL in $CHANNELS ; do
 
     echo "Channel: $CHANNEL"
-    CUR_LINK=$( grep -A 1 "<title>$CHANNEL</title>" < "$SENDER_FILE" |\
+    CUR_LINK=$( grep -F -A 1 "<title>$CHANNEL</title>" < "$SENDER_FILE" |\
       grep "<link>" |\
       sed -n "s/.*link>\(.*\)<\/link.*/\1/p")
 
@@ -67,6 +59,8 @@ for GUID in $GUIDS ; do
 
 				sed -i "s/<link>$CUR_LINK_MOD<\/link>/<link>$NEW_LINK_MOD<\/link>/" \
 					"$SENDER_NEXT_FILE"
+
+				(( N_CHANGED += 1 ))
 			else
 				echo -e "\tKein neuer Link enthalten."
 			fi
@@ -77,12 +71,12 @@ for GUID in $GUIDS ; do
 
     # read FOO
   done
-
+	echo -e "=================================\n"
 done
 
 diff -q "$SENDER_FILE" "$SENDER_NEXT_FILE"
 if [ "$?" = "1" ] ; then
-  echo "URLs aktualisiert."
+  echo "$N_CHANGED URLs aktualisiert."
 else
   echo "Keine URLs geändert."
 fi

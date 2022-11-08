@@ -27,12 +27,12 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/ARD-Hauptstadtstudio_%28aus_Nordwesten%29.jpg/1280px-ARD-Hauptstadtstudio_%28aus_Nordwesten%29.jpg</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-ARD-Hauptstadtstudio_(aus_Nordwesten).jpg</fanart>
-        <mvw_guid>G+4BZEx8lPnkjc2wtOop3Y/eH/n8K23/HKn8vphnmHE=</mvw_guid>
+        <mvw_cdata>CDATA[ARD Livestream]</mvw_cdata>
         <desc>Das Erste</desc>
       </item>
       <item>
         <title>Tagesschau (Live)</title>
-        <link>http://tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/master.m3u8</link>
+        <link>https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tagesschau_Logo_2015.svg/462px-Tagesschau_Logo_2015.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/462px-Tagesschau_Logo_2015.svg.png</thumbnail>
         <genre>TV</genre>
@@ -41,12 +41,12 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/4/44/Tagesschau_kulissen.JPG</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/Tagesschau_kulissen.jpg</fanart>
-        <mvw_guid>J4GK7KIFeZJdcXmTSGO/8VzcQWyVd1lWRsHs5kndxhQ=</mvw_guid>
+        <mvw_cdata>CDATA[ARD Tagesschau Livestream]</mvw_cdata>
         <desc>Der Schwerpunkt von Tagesschau24 liegt auf der Ausstrahlung von Informations- und Nachrichtensendungen, Reportagen, Dokumentationen und Gesprächssendungen.</desc>
       </item>
       <item>
         <title>WDR</title>
-        <link>http://wdrfsgeo-lh.akamaihd.net/i/wdrfs_geogeblockt@530016/master.m3u8</link>
+        <link>https://wdrfs247.akamaized.net/hls/live/681509/wdr_msl4_fs247/index.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/WDR_Dachmarke.svg/800px-WDR_Dachmarke.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/800px-WDR_Dachmarke.svg.png</thumbnail>
         <genre>TV</genre>
@@ -55,12 +55,12 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/0/01/WDR_Archivhaus_K%C3%B6ln.jpg</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/WDR_Archivhaus_Köln.jpg</fanart>
-        <mvw_guid>IPnZnvJwLQkdg/ekw380xgUVmyVFXJ4gw0dqv1GHBwE=</mvw_guid>
+        <mvw_cdata>CDATA[WDR Livestream (Deutschland)]</mvw_cdata>
         <desc>Westdeutscher Rundfunk</desc>
       </item>
       <item>
         <title>NDR Hamburg</title>
-        <link>http://ndrfs-lh.akamaihd.net/i/ndrfs_hh@430231/master.m3u8</link>
+        <link>https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/400px-Logo_NDR_Fernsehen_2017.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/400px-Logo_NDR_Fernsehen_2017.svg.png</thumbnail>
         <genre>TV</genre>
@@ -69,12 +69,12 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/13-02-19-landtag-h-vorab-N3S_1766.NEF.jpg/1280px-13-02-19-landtag-h-vorab-N3S_1766.NEF.jpg</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-13-02-19-landtag-h-vorab-N3S_1766.NEF.jpg</fanart>
-        <mvw_guid>Nur fuer Niedersachsen verfügbar</mvw_guid>
+        <mvw_cdata>[CDATA[NDR Hamburg]</mvw_cdata>
         <desc>Norddeutscher Rundfunk</desc>
       </item>
       <item>
         <title>NDR Mecklenburg-Vorpommern</title>
-        <link>http://ndrfs-lh.akamaihd.net/i/ndrfs_mv@430232/master.m3u8</link>
+        <link>https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_mv/master.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/400px-Logo_NDR_Fernsehen_2017.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/400px-Logo_NDR_Fernsehen_2017.svg.png</thumbnail>
         <genre>TV</genre>
@@ -83,12 +83,12 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/13-02-19-landtag-h-vorab-N3S_1766.NEF.jpg/1280px-13-02-19-landtag-h-vorab-N3S_1766.NEF.jpg</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-13-02-19-landtag-h-vorab-N3S_1766.NEF.jpg</fanart>
-        <mvw_guid>Nur fuer Niedersachse verfügbarn</mvw_guid>
+        <mvw_cdata>[CDATA[NDR Mecklenburg-Vorpommern]</mvw_cdata>
         <desc>Norddeutscher Rundfunk</desc>
       </item>
       <item>
         <title>NDR Niedersachsen</title>
-        <link>http://ndrfs-lh.akamaihd.net/i/ndrfs_nds@430233/master.m3u8</link>
+        <link>https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_nds/master.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/400px-Logo_NDR_Fernsehen_2017.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/400px-Logo_NDR_Fernsehen_2017.svg.png</thumbnail>
         <genre>TV</genre>
@@ -97,12 +97,12 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/13-02-19-landtag-h-vorab-N3S_1766.NEF.jpg/1280px-13-02-19-landtag-h-vorab-N3S_1766.NEF.jpg</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-13-02-19-landtag-h-vorab-N3S_1766.NEF.jpg</fanart>
-        <mvw_guid>U7SSfRDFfcpwSP9vNnfIG0tGwc8x1oCsrdqFQ2xSvTc=</mvw_guid>
+        <mvw_cdata>[CDATA[NDR Niedersachsen]</mvw_cdata>
         <desc>Norddeutscher Rundfunk</desc>
       </item>
       <item>
         <title>NDR Schleswig-Holstein</title>
-        <link>http://ndrfs-lh.akamaihd.net/i/ndrfs_sh@430234/master.m3u8</link>
+        <link>https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_sh/master.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/400px-Logo_NDR_Fernsehen_2017.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/400px-Logo_NDR_Fernsehen_2017.svg.png</thumbnail>
         <genre>TV</genre>
@@ -111,12 +111,12 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/13-02-19-landtag-h-vorab-N3S_1766.NEF.jpg/1280px-13-02-19-landtag-h-vorab-N3S_1766.NEF.jpg</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-13-02-19-landtag-h-vorab-N3S_1766.NEF.jpg</fanart>
-        <mvw_guid>Nur fuer Niedersachsen verfügbar</mvw_guid>
+        <mvw_cdata>[CDATA[NDR Schleswig-Holstein]</mvw_cdata>
         <desc>Norddeutscher Rundfunk</desc>
       </item>
       <item>
         <title>rbb Berlin</title>
-        <link>http://rbblive-lh.akamaihd.net/i/rbb_berlin@144674/master.m3u8</link>
+        <link>https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Rbb_fernsehen_HD_Logo_2017.svg/800px-Rbb_fernsehen_HD_Logo_2017.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/800px-Rbb_fernsehen_HD_Logo_2017.svg.png</thumbnail>
         <genre>TV</genre>
@@ -125,12 +125,12 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/RBB_Babelsberg.JPG/1280px-RBB_Babelsberg.JPG</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-RBB_Babelsberg.jpg</fanart>
-        <mvw_guid>BqDHuhb2nUSBu/X7rekjMDoS9yb/0ZB1ANzPZL+1IrM=</mvw_guid>
+        <mvw_cdata>CDATA[RBB Berlin Livestream]</mvw_cdata>
         <desc>Rundfunk Berlin-Brandenburg</desc>
       </item>
       <item>
         <title>rbb Brandenburg</title>
-        <link>http://rbblive-lh.akamaihd.net/i/rbb_brandenburg@349369/master.m3u8</link>
+        <link>https://rbb-hls-brandenburg.akamaized.net/hls/live/2017825/rbb_brandenburg/master.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Rbb_fernsehen_HD_Logo_2017.svg/800px-Rbb_fernsehen_HD_Logo_2017.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/800px-Rbb_fernsehen_HD_Logo_2017.svg.png</thumbnail>
         <genre>TV</genre>
@@ -139,12 +139,12 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/RBB_Babelsberg.JPG/1280px-RBB_Babelsberg.JPG</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-RBB_Babelsberg.jpg</fanart>
-        <mvw_guid>+1EUDCnSAuoFo+LkWDBfOxQsvF8YxGWk2C/UYwLW79Y=</mvw_guid>
+        <mvw_cdata>CDATA[RBB Brandenburg Livestream]</mvw_cdata>
         <desc>Rundfunk Berlin-Brandenburg</desc>
       </item>
       <item>
         <title>MDR Sachsen-Anhalt</title>
-        <link>http://mdrsahls-lh.akamaihd.net/i/livetvmdrsachsenanhalt_de@513999/master.m3u8</link>
+        <link>https://mdrtvsahls.akamaized.net/hls/live/2016879/mdrtvsa/master.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Mdr_Fernsehen_HD_Logo_2017.png/800px-Mdr_Fernsehen_HD_Logo_2017.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/800px-Mdr_Fernsehen_HD_Logo_2017.png</thumbnail>
         <genre>TV</genre>
@@ -153,12 +153,12 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/131008-MDR-Leipzig-Studio.JPG/1280px-131008-MDR-Leipzig-Studio.JPG</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-131008-MDR-Leipzig-Studio.jpg</fanart>
-        <mvw_guid>WF3U5mUcHwwTrhO/aKXBttVwJlkEBuBEQ28MUrwDItw=</mvw_guid>
+        <mvw_cdata>CDATA[MDR Sachsen-Anhalt Livestream]</mvw_cdata>
         <desc>Mitteldeutscher Rundfunk</desc>
       </item>
       <item>
         <title>MDR Sachsen</title>
-        <link>http://mdrsnhls-lh.akamaihd.net/i/livetvmdrsachsen_de@513998/master.m3u8</link>
+        <link>https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/master.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Mdr_Fernsehen_HD_Logo_2017.png/800px-Mdr_Fernsehen_HD_Logo_2017.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/800px-Mdr_Fernsehen_HD_Logo_2017.png</thumbnail>
         <genre>TV</genre>
@@ -167,12 +167,12 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/131008-MDR-Leipzig-Studio.JPG/1280px-131008-MDR-Leipzig-Studio.JPG</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-131008-MDR-Leipzig-Studio.jpg</fanart>
-        <mvw_guid>714ZnzIfox1EbOIv0XDucJj+9BYJDkFH2RHP2yol4Eo=</mvw_guid>
+        <mvw_cdata>CDATA[MDR Sachsen Livestream]</mvw_cdata>
         <desc>Mitteldeutscher Rundfunk</desc>
       </item>
       <item>
         <title>MDR Thüringen</title>
-        <link>http://mdrthuhls-lh.akamaihd.net/i/livetvmdrthueringen_de@514027/master.m3u8</link>
+        <link>https://mdrtvthhls.akamaized.net/hls/live/2016880/mdrtvth/master.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Mdr_Fernsehen_HD_Logo_2017.png/800px-Mdr_Fernsehen_HD_Logo_2017.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/800px-Mdr_Fernsehen_HD_Logo_2017.png</thumbnail>
         <genre>TV</genre>
@@ -181,12 +181,12 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/131008-MDR-Leipzig-Studio.JPG/1280px-131008-MDR-Leipzig-Studio.JPG</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-131008-MDR-Leipzig-Studio.jpg</fanart>
-        <mvw_guid>ICb2aFptF6CkAewVSmZ0QMfPq4n/U5y4JkYa2rPDx4A=</mvw_guid>
+        <mvw_cdata>CDATA[MDR Thüringen Livestream]</mvw_cdata>
         <desc>Mitteldeutscher Rundfunk</desc>
       </item>
       <item>
         <title>SR</title>
-        <link>http://srlive24-lh.akamaihd.net/i/sr_universal02@107595/master.m3u8</link>
+				<link>https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/SR_Fernsehen.svg/627px-SR_Fernsehen.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/627px-SR_Fernsehen.svg.png</thumbnail>
         <genre>TV</genre>
@@ -195,12 +195,12 @@
         <epg></epg>
         <fanart_url>http://upload.wikimedia.org/wikipedia/commons/3/37/Bundesarchiv_B_145_Bild-P094175%2C_Saarbr%C3%BCcken%2C_Saarl%C3%A4ndischer_Rundfunk.jpg</fanart_url>
 				<fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/Bundesarchiv_B_145_Bild-P094175,_Saarbrücken,_Saarländischer_Rundfunk.jpg</fanart>
-        <mvw_guid>N4Z2QOBje8BFDxbG3TAF3ezYciZISAroOETf6B7AgQ4=</mvw_guid>
+        <mvw_cdata>CDATA[SR Livestream]_DISABLED_DUE_WRONG_MVW_URL_UPDATE</mvw_cdata>
         <desc>Saarländischer Rundfunk</desc>
       </item>
       <item>
         <title>BR Nord</title>
-        <link>http://brlive-lh.akamaihd.net/i/bfsnord_germany@119898/master.m3u8</link>
+        <link>https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8</link>
         <thumbnail_url>http://upload.wikimedia.org/wikipedia/commons/thumb/9/98/BR_Dachmarke.svg/200px-BR_Dachmarke.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/200px-BR_Dachmarke.svg.png</thumbnail>
         <genre>TV</genre>
@@ -209,12 +209,12 @@
         <epg></epg>
         <fanart_url>http://upload.wikimedia.org/wikipedia/commons/4/47/Entrance_Bayerischer_Rundfunk_Fernsehstudio_Unterf%C3%B6hring_DE_2010-06-09.jpg</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/Entrance_Bayerischer_Rundfunk_Fernsehstudio_Unterföhring_DE_2010-06-09.jpg</fanart>
-        <mvw_guid>bc3cXegmen4itWfdbRQIT+tSIdDV+HRGDpToaK+Pu3U=</mvw_guid>
+        <mvw_cdata>CDATA[BR Nord Livestream]</mvw_cdata>
         <desc>Bayerischer Rundfunk</desc>
       </item>
       <item>
         <title>BR Süd</title>
-        <link>http://mcdn.br.de/bfs_sued/de/master.m3u8</link>
+        <link>https://mcdn.br.de/br/fs/bfs_sued/hls/de/master.m3u8</link>
         <thumbnail_url>http://upload.wikimedia.org/wikipedia/commons/thumb/9/98/BR_Dachmarke.svg/200px-BR_Dachmarke.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/200px-BR_Dachmarke.svg.png</thumbnail>
         <genre>TV</genre>
@@ -223,12 +223,12 @@
         <epg></epg>
         <fanart_url>http://upload.wikimedia.org/wikipedia/commons/4/47/Entrance_Bayerischer_Rundfunk_Fernsehstudio_Unterf%C3%B6hring_DE_2010-06-09.jpg</fanart_url>
 				<fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/Entrance_Bayerischer_Rundfunk_Fernsehstudio_Unterföhring_DE_2010-06-09.jpg</fanart>
-        <mvw_guid>rrumMDT+h0RJ5Uo0qUkIgXzU1OYBcuCkmNMxcengLIU=</mvw_guid>
+        <mvw_cdata>CDATA[BR Süd Livestream]</mvw_cdata>
         <desc>Bayerischer Rundfunk</desc>
       </item>
       <item>
         <title>SWR</title>
-        <link>https://swrbwhls-i.akamaihd.net/hls/live/667638/swrbwd/master.m3u8</link>
+        <link>https://swrbwd-hls.akamaized.net/hls/live/2018672/swrbwd/master.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/SWR_FERNSEHEN_2014.png/800px-SWR_FERNSEHEN_2014.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/800px-SWR_FERNSEHEN_2014.png</thumbnail>
         <genre>TV</genre>
@@ -237,12 +237,12 @@
         <epg></epg>
         <fanart_url>http://upload.wikimedia.org/wikipedia/commons/a/a3/SWR_Funkhaus_Stuttgart.jpg</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/SWR_Funkhaus_Stuttgart.jpg</fanart>
-        <mvw_guid>a+tJo4BGb8iA5fj1zZgHkoogvxzREqQLMAzoh/C2LZw=</mvw_guid>
+        <mvw_cdata>CDATA[SWR BW Livestream]</mvw_cdata>
         <desc>Südwestrundfunk</desc>
       </item>
       <item>
         <title>HR</title>
-        <link>http://hrlive1-lh.akamaihd.net/i/hr_fernsehen@75910/master.m3u8</link>
+        <link>https://hrhls.akamaized.net/hls/live/2024525/hrhls/master.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/HR_Logo.svg/200px-HR_Logo.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/200px-HR_Logo.svg.png</thumbnail>
         <genre>TV</genre>
@@ -251,12 +251,12 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/1/13/Hessischer-rundfunk-ffm001.jpg</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/Hessischer-rundfunk-ffm001.jpg</fanart>
-        <mvw_guid>LgNZRZSLQKW0WpYWfCptohLpBOgxiFerjI7o6x+YbrE=</mvw_guid>
+        <mvw_cdata>CDATA[HR Livestream]</mvw_cdata>
         <desc>Hessischer Rundfunk</desc>
       </item>
       <item>
         <title>ARD One</title>
-        <link>http://onelivestream-lh.akamaihd.net/i/one_livestream@568814/master.m3u8</link>
+        <link>https://mcdn.one.ard.de/ardone/hls/master.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/One_TV_Logo.svg/320px-One_TV_Logo.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/320px-One_TV_Logo.svg.png</thumbnail>
         <genre>TV</genre>
@@ -265,12 +265,12 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/One_TV_Logo.svg/1280px-One_TV_Logo.svg.png</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-One_TV_Logo.svg.jpg</fanart>
-        <mvw_guid>8fVoXIKinavfzanw5DuMRjkc4QIbF2dJRO0eIQqe83Q=</mvw_guid>
+        <mvw_cdata>CDATA[ARD ONE Livestream]</mvw_cdata>
         <desc></desc>
       </item>
       <item>
         <title>ARD-Alpha</title>
-        <link>http://brlive-lh.akamaihd.net/i/bralpha_germany@119899/master.m3u8</link>
+        <link>https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/3/33/ARD-alpha_HD_2019.png</thumbnail_url>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/800px-ARD_alpha.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/800px-ARD_alpha.svg.png</thumbnail>
@@ -280,7 +280,7 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/1280px-ARD_alpha.svg.png</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-ARD_alpha.svg.jpg</fanart>
-        <mvw_guid>bdgT3usdgNUdV4hb2sczkKl37GYjJyDO09ivado7fbo=</mvw_guid>
+        <mvw_cdata>CDATA[ARD Alpha Livestream]</mvw_cdata>
         <desc></desc>
       </item>
     </items>
@@ -296,7 +296,7 @@
     <items>
       <item>
         <title>ZDF</title>
-        <link>http://zdf-hls-01.akamaized.net/hls/live/2002460/de/high/master.m3u8</link>
+        <link>http://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/ZDF_logo.svg/800px-ZDF_logo.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/800px-ZDF_logo.svg.png</thumbnail>
         <genre>TV</genre>
@@ -305,12 +305,12 @@
         <epg></epg>
 				<fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/ZDFSendezentrumIinMZ.JPG/1280px-ZDFSendezentrumIinMZ.JPG</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-ZDFSendezentrumIinMZ.jpg</fanart>
-        <mvw_guid>ZcK7rZKvd2xpJU/IFM5QhAshboSHX4zDpw72M/xZmFk=</mvw_guid>
+        <mvw_cdata>CDATA[ZDF Livestream]</mvw_cdata>
         <desc>Zweites Deutsches Fernsehen</desc>
       </item>
       <item>
         <title>ZDFneo</title>
-        <link>http://zdf-hls-02.akamaized.net/hls/live/2002461/de/high/master.m3u8</link>
+        <link>http://zdf-hls-16.akamaized.net/hls/live/2016499/de/high/master.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ZDFneo2017_Logo.svg/512px-ZDFneo2017_Logo.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/512px-ZDFneo2017_Logo.svg.png</thumbnail>
         <genre>TV</genre>
@@ -319,12 +319,12 @@
         <epg></epg>
 				<fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/ZDFneo2017_Logo.svg/1280px-ZDFneo2017_Logo.svg.png</fanart_url>
 				<fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-ZDFneo2017_Logo.svg.jpg</fanart>
-        <mvw_guid>9yK2SKU/SDZ8tT2bIaDvCienK/0EV92u8cUSpmXzTG0=</mvw_guid>
+        <mvw_cdata>CDATA[ZDF.neo Livestream]</mvw_cdata>
         <desc>ZDFneo</desc>
       </item>
       <item>
         <title>ZDFinfo</title>
-        <link>http://zdfhls17-i.akamaihd.net/hls/live/744750/de/high/master.m3u8</link>
+        <link>http://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ZDFinfo_2011.svg/560px-ZDFinfo_2011.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/560px-ZDFinfo_2011.svg.png</thumbnail>
         <genre>TV</genre>
@@ -333,12 +333,12 @@
         <epg></epg>
 				<fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/ZDFinfo_2011.svg/1280px-ZDFinfo_2011.svg.png</fanart_url>
 				<fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-ZDFinfo_2011.svg.jpg</fanart>
-        <mvw_guid>pNn2QrpVx/TZEMtbGaQGIorv0GAIs7QshlQG4dL4TMo=</mvw_guid>
+        <mvw_cdata>CDATA[ZDF.info Livestream]</mvw_cdata>
         <desc>ZDFinfo</desc>
       </item>
       <item>
         <title>3sat</title>
-        <link>http://zdfhls18-i.akamaihd.net/hls/live/744751/dach/high/master.m3u8</link>
+        <link>http://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/3sat_2019.svg/640px-3sat_2019.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/640px-3sat_2019.svg.png</thumbnail>
         <genre>TV</genre>
@@ -347,7 +347,7 @@
         <epg></epg>
         <fanart_url>http://upload.wikimedia.org/wikipedia/commons/7/78/ZDF_Sendezentrum_2.jpg</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/ZDF_Sendezentrum_2.jpg</fanart>
-        <mvw_guid>gElUoOgKGCThzK4Vjj6f82Tgya9oEzcFuFd95ZRiM/M=</mvw_guid>
+        <mvw_cdata>CDATA[3Sat Livestream]</mvw_cdata>
         <desc>3sat</desc>
       </item>
     </items>
@@ -363,7 +363,7 @@
     <items>
       <item>
         <title>KiKA</title>
-        <link>http://kikade-lh.akamaihd.net/i/livetvkika_de@450035/master.m3u8</link>
+        <link>https://kikageohls.akamaized.net/hls/live/2022693/livetvkika_de/master.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Kika_2012.svg/640px-Kika_2012.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/640px-Kika_2012.svg.png</thumbnail>
         <genre>TV</genre>
@@ -372,12 +372,12 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/9/94/Bernd_das_Brot_Erfurt.JPG</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/Bernd_das_Brot_Erfurt.jpg</fanart>
-        <mvw_guid>1vALnwIbWtAbBMiAr3W9LbDqJkd3jT4LWWxk2gt4BPg=</mvw_guid>
+        <mvw_cdata>CDATA[KiKA Livestream]</mvw_cdata>
         <desc></desc>
       </item>
       <item>
         <title>Phoenix</title>
-        <link>http://zdfhls19-i.akamaihd.net/hls/live/744752/de/high/master.m3u8</link>
+        <link>http://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Phoenix-logo-2018.svg/512px-Phoenix-logo-2018.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/512px-Phoenix-logo-2018.svg.png</thumbnail>
         <genre>TV</genre>
@@ -386,12 +386,12 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/3/3a/Phoenix.JPG</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/Phoenix.jpg</fanart>
-        <mvw_guid>2pI/Td9FwTgt34o27tztTaL6caW5ZzdvlFTh3Rrq2cw=</mvw_guid>
+        <mvw_cdata>CDATA[PHOENIX Livestream]</mvw_cdata>
         <desc></desc>
       </item>
       <item>
         <title>Arte</title>
-        <link>http://artelive-lh.akamaihd.net/i/artelive_de@393591/master.m3u8</link>
+        <link>https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arte_Logo_2017.svg/145px-Arte_Logo_2017.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/145px-Arte_Logo_2017.svg.png</thumbnail>
         <genre>TV</genre>
@@ -400,12 +400,12 @@
         <epg></epg>
         <fanart_url>http://upload.wikimedia.org/wikipedia/commons/thumb/4/47/2011_Arte_Strasbourg.JPG/1280px-2011_Arte_Strasbourg.JPG</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-2011_Arte_Strasbourg.jpg</fanart>
-        <mvw_guid>F//sNiaOlTSlc4ep2m+eYLIk8sYqoQwTCMxYtJ1DIR8=</mvw_guid>
+        <mvw_cdata>CDATA[ARTE.DE Livestream]</mvw_cdata>
         <desc></desc>
       </item>
       <item>
         <title>Arte (FR)</title>
-        <link>http://artelive-lh.akamaihd.net/i/artelive_fr@344805/master.m3u8</link>
+        <link>https://artesimulcast.akamaized.net/hls/live/2031003/artelive_fr/index.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arte_Logo_2017.svg/145px-Arte_Logo_2017.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/145px-Arte_Logo_2017.svg.png</thumbnail>
         <genre>TV</genre>
@@ -414,9 +414,10 @@
         <epg></epg>
         <fanart_url>http://upload.wikimedia.org/wikipedia/commons/thumb/4/47/2011_Arte_Strasbourg.JPG/1280px-2011_Arte_Strasbourg.JPG</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-2011_Arte_Strasbourg.jpg</fanart>
-        <mvw_guid>66DvRJHHA0cdS6XE6LU68DcopE8BLqgWdCSCTIjV+mw=</mvw_guid>
+        <mvw_cdata>CDATA[ARTE.FR Livestream]</mvw_cdata>
         <desc></desc>
       </item>
+			<!-- DRM 
       <item>
         <title>ORF-1</title>
         <link>https://orf1.mdn.ors.at/out/u/orf1/qxb/manifest.m3u8</link>
@@ -428,7 +429,7 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/ORF_1_2019.svg/1000px-ORF_1_2019.svg.png</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1000px-ORF_1_2019.svg.jpg</fanart>
-        <mvw_guid>Hwnb9445Eot2HAH9pQhx0wiNDWBwa9m9WlWeZU4HQRI=</mvw_guid>
+        <mvw_cdata>CDATA[ORF-1 Livestream]</mvw_cdata>
         <desc></desc>
       </item>
       <item>
@@ -442,7 +443,7 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/ORF2_logo_n.svg/1280px-ORF2_logo_n.svg.png</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-ORF2_logo_n.svg.jpg</fanart>
-        <mvw_guid>11y5BUSH37Z/m6qboXbNFiKhFu/bJeEQ7EyrFQiT240=</mvw_guid>
+        <mvw_cdata>CDATA[ORF-2 Livestream]</mvw_cdata>
         <desc></desc>
       </item>
       <item>
@@ -456,7 +457,7 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/ORF_III_Logo_Monochrom.svg/1280px-ORF_III_Logo_Monochrom.svg.png</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-ORF_III_Logo_Monochrom.svg.jpg</fanart>
-        <mvw_guid>FlZkd/AxXjnWQBjcHpfwYFIGzCHBvQ1FKB9cu6z6yZA=</mvw_guid>
+        <mvw_cdata>CDATA[ORF-3 Livestream]</mvw_cdata>
         <desc></desc>
       </item>
       <item>
@@ -470,12 +471,13 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/ORF_Sport%2B.svg/1280px-ORF_Sport%2B.svg.png</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-ORF_Sport+.svg.jpg</fanart>
-        <mvw_guid>KtLzN9p+eS6XLx2dfzLBO2xiXiqE2P0Ogct3j0eDxQ0=</mvw_guid>
+        <mvw_cdata>CDATA[ORF-Sport Livestream]</mvw_cdata>
         <desc></desc>
       </item>
+			-->
       <item>
         <title>DW-TV</title>
-        <link>http://dwstream6-lh.akamaihd.net/i/dwstream6_live@123962/master.m3u8</link>
+				<link>https://dwamdstream106.akamaized.net/hls/live/2017965/dwstream106/index.m3u8</link>
         <thumbnail_url>https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Deutsche_Welle_symbol_2012.svg/640px-Deutsche_Welle_symbol_2012.svg.png</thumbnail_url>
         <thumbnail>special://home/addons/plugin.video.deutsche_sender/resources/channels/thumbnail/640px-Deutsche_Welle_symbol_2012.svg.png</thumbnail>
         <genre>TV</genre>
@@ -484,7 +486,7 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Deutsche_Welle_Logo.svg/1280px-Deutsche_Welle_Logo.svg.png</fanart_url>
 				<fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-Deutsche_Welle_Logo.svg.jpg</fanart>
-        <mvw_guid>fm+b1ZdmK8ZE5sF0lW0wBaZk2skvU4Jggo7xhUnIrj4=</mvw_guid>
+        <mvw_cdata></mvw_cdata>
         <desc></desc>
       </item>
     </items>
@@ -498,6 +500,7 @@
     <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1024px-Blank_globe.svg.jpg</fanart>
     <desc></desc>
     <items>
+			<!-- Projekt endete 2019
       <item>
         <title>NASA - ISS HD Earth Viewing Experiment</title>
         <link>http://iphone-streaming.ustream.tv/uhls/17074538/streams/live/iphone/playlist.m3u8</link>
@@ -509,9 +512,10 @@
         <epg></epg>
         <fanart_url>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/STS-133_International_Space_Station_after_undocking_5.jpg/1280px-STS-133_International_Space_Station_after_undocking_5.jpg</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/1280px-STS-133_International_Space_Station_after_undocking_5.jpg</fanart>
-        <mvw_guid></mvw_guid>
+        <mvw_cdata></mvw_cdata>
         <desc>Livestream von der Internationalen Raumstration</desc>
       </item>
+			-->
       <item>
         <title>Al Jazeera</title>
         <link>https://live-hls-web-aje.getaj.net/AJE/index.m3u8</link>
@@ -523,7 +527,7 @@
         <epg></epg>
         <fanart_url>http://upload.wikimedia.org/wikipedia/commons/3/36/Al_Jazeera_English_Newsdesk.jpg</fanart_url>
         <fanart>special://home/addons/plugin.video.deutsche_sender/resources/channels/fanart/Al_Jazeera_English_Newsdesk.jpg</fanart>
-        <mvw_guid></mvw_guid>
+        <mvw_cdata></mvw_cdata>
         <desc>Englischer Stream von Al Jazeera</desc>
       </item>
     </items>
