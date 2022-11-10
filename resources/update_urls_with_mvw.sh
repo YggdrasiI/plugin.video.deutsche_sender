@@ -17,8 +17,10 @@ CDATAS=$( grep -A 2 "<mvw_cdata>" < "$SENDER_FILE" |\
   sed -n "s/.*mvw_cdata>\(.*\)<\/mvw_cdata.*/\1/p")
 
 # Fetch new urls
-# RSS_FEED=$(wget -O - "https://mediathekviewweb.de/feed?query=livestream%20%23livestream")
-RSS_FEED=$(cat /dev/shm/feed.rss)
+RSS_FEED=$(wget -O - "https://mediathekviewweb.de/feed?query=livestream%20%23livestream")
+RSS_FEED="$RSS_FEED $(wget -O - "https://mediathekviewweb.de/feed?query=livestream%20%ndr")"
+# echo "$RSS_FEED" > /dev/shm/feed.rss
+# RSS_FEED=$(cat /dev/shm/feed.rss)
 
 N_CHANGED=0
 
